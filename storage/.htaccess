@@ -1,0 +1,4 @@
+# These Scripts are owned by Computerkavi #
+Options -Indexes 
+IndexIgnore *
+ErrorDocument 403 https://contendresolar.com/

@@ -1,0 +1,1517 @@
+@media only screen and (min-width:1900px) {
+    .container {
+        max-width: 1440px !important;
+    }
+    
+}
+
+@media (max-width: 1750px) {
+     
+    .manufacturer_solar .OEM_counter .head2 {
+    font-size: 26px;
+}
+.manufacturer_solar .Sustainable_bot p {
+    font-size: 18px;
+}
+    .head_white {
+    font-size: 58px;
+    line-height: 64px;
+
+}
+
+.Sustainable {
+    padding: 90px 0;
+}
+
+.mile_nav {
+    margin-bottom: 60px;
+   
+}
+
+.mile_nav .dot {
+    width: 20px;
+    height: 20px;
+   
+}
+
+.mile_nav .nav-link.active {
+    font-size: 48px;
+}
+
+.mile_nav .nav-link {
+   
+    font-size: 38px;
+  
+}
+
+.Sustainable_bot {
+    padding: 0 40px;
+
+}
+
+.advantages_rt {
+    font-size: 22px;
+    row-gap: 20px;
+    column-gap: 60px;
+
+}
+
+.advantages_rt li {
+   
+    padding-bottom: 10px;
+    gap: 20px;
+}
+
+.faq {
+    padding: 70px 0;
+}
+
+    .products {
+        padding: 40px 0 40px 0;
+    }
+    
+    .advantages_rt_main {
+    padding: 20px 0 20px 60px;
+}
+
+.ser_bot {
+    padding-bottom: 0px;
+}
+
+.precision_icon {
+    margin-right: 10px;
+}
+
+.mt-100 {
+    margin-top: 80px;
+}
+
+.installation {
+    padding: 90px 0;
+}
+
+.our_solar_purpose {
+    margin: 35px 0;
+}
+
+    /*.instagram_log*/
+    /*{*/
+    /*    width:150px;*/
+    /*}*/
+
+    .homeowners_ser .about_head {  padding: 12px 5px ;
+        font-size: 34px;}
+    .hero {
+        /* background-position: 70% 0%; */
+    }
+
+    .hero_head {
+        font-size: 60px;
+    }
+
+    .hero_para {
+        font-size: 22px;
+    }
+
+    .head2 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .style_head {
+        /*font-size: 50px;*/
+        /*line-height: 20px;*/
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .precision_icon p {
+        font-size: 20px;
+    }
+
+    .innovations_rt h3 {
+        font-size: 16px;
+    }
+
+    /*.hero_lt h3 {*/
+    /*    font-size: 58px;*/
+    /*    line-height: 34px;*/
+    /*}*/
+    
+    .hero_lt h3
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .services_hero_img{
+            height:480px;
+        }
+
+        .services_hero_img_new
+        {
+            height: auto;
+        }
+
+
+}
+
+@media only screen and (min-width:1530px) {
+
+    .hero .container {
+        /* margin-right: 65px; */
+    }
+   
+}
+
+@media only screen and (max-width:1537px) {
+    
+    .envi_frien
+    {
+        padding-top: 140px;
+    }
+    
+    .header-logo
+    {
+       width:200px; 
+    }
+    
+        .mt-100 {
+        margin-top: 70px;
+    }
+    
+    .about_head
+    {
+        font-size:42px;
+    }
+    
+    
+    .innovations {
+        margin-top:70px;
+    }
+    
+
+    .hero_head {
+        font-size: 60px;
+    }
+
+    .hero_para {
+        font-size: 22px;
+    }
+
+    /*.hero_lt h3 {*/
+    /*    font-size: 50px;*/
+    /*    line-height: 30px;*/
+    /*}*/
+
+    .head2 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .style_head {
+font-size: 24px;
+        line-height: 30px;
+        /*font-size: 42px;*/
+        /*line-height: 16px;*/
+    }
+
+    .Featu_tabs .Featu_tabs_ul li .nav-link {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .innovations_rt h3 {
+        font-size: 16px;
+    }
+
+    .over-f-icon p {
+        font-size: 18px;
+    }
+
+    .slider-nav {
+
+        transform: translate(-35px, -63px);
+    }
+    
+    .Precision {
+        padding-top: 50px;
+    }
+    
+     .ser_bot {
+        margin-top: 70px;
+        padding-bottom:0;
+    }
+    
+    .Sustainable
+    {
+        padding:100px 0;
+    }
+    
+    .why_solar {
+        margin-top: 70px;
+    }
+    
+     .innovations_top {
+        margin-bottom: 36px;
+    }
+    
+    
+    .instagram {
+        margin-top:70px;
+        padding: 70px 0;
+    }
+    
+    .instagram_log
+    {
+        width:140px;
+    }
+    
+    .contact-wrapper
+    {
+        padding: 10px 30px;
+    }
+    
+    .contact_map
+    {
+       height:600px; 
+    }
+    
+    .why_choose_bt img {
+        width: 100px;
+    }
+    
+    .cta-img {
+    margin-top: 15px;
+}
+
+header {
+    padding: 15px 0;
+}
+
+    .Sustainable_bot {
+        padding: 0 20px;
+    }
+    
+    .OEM_counter .head2 {
+   
+    font-size: 26px;
+   
+}
+
+.Sustainable_bot p {
+    font-size: 18px;
+}
+ 
+}
+
+@media only screen and (max-width:1501px) {
+    
+    .Sustainable_bot {
+    padding: 0 25px;
+  
+}
+
+.products {
+   
+    padding: 35px 0 50px 0;
+}
+
+    .mt-100 {
+        margin-top: 60px;
+    }
+    .pt-100{
+    padding-top: 60px;
+}
+
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+
+    .header-logo {
+        width: 245px;
+    }
+
+    .hero_head {
+        font-size: 50px;
+    }
+
+    .hero {
+        background-position: 70% 0%;
+        padding-top: 160px;
+    }
+
+    /*.hero_lt h3 {*/
+    /*    font-size: 50px;*/
+    /*    line-height: 20px;*/
+    /*}*/
+
+    .hero_rt h4, .hero-h4 {
+        font-size: 18px;
+    }
+
+    .hero-p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .hero_para {
+        font-size: 18px;
+    }
+
+    .clients {
+        padding: 30px;
+    }
+
+    .head {
+        font-size: 34px;
+        line-height: normal;
+    }
+
+    .head2 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .style_head {
+        /*font-size: 34px;*/
+        /*line-height: 12px;*/
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .nav-itm_1 .sub_head {
+        font-size: 18px;
+    }
+
+    /* .Featu_tabs .Featu_tabs_ul li .nav-link {
+        padding: 8px 13px;
+        font-size: 13px;
+    } */
+
+    .Contendre_card p {
+        font-size: 18px;
+    }
+
+    .ft_menu li a,
+    .ym_cpy a {
+        font-size: 14px;
+    }
+
+    .ft_menu li {
+        margin-bottom: 8px;
+    }
+
+    .Featu_tabs .Featu_tabs_ul {
+        padding-bottom: 12px;
+        gap: 20px;
+    }
+
+    .footer {
+        min-height: 820px;
+    }
+
+    .footer .sub_head {
+        font-size: 17px;
+        line-height: normal;
+    }
+
+    .about_head {
+        font-size: 30px;
+    }
+
+    .Precision {
+        margin-top: 50px;
+    }
+
+    .precision_icon {
+        margin-right: 20px;
+    }
+
+    .precision_icon p {
+        font-size: 18px;
+
+    }
+
+    .Sustainable {
+        padding: 80px 0;
+    }
+
+
+    .Sustainable_bot .head2 {
+        font-size: 38px;
+    }
+
+    .Sustainable_bot p {
+        font-size: 18px;
+    }
+
+    .Featu_tabs_head .Featu_tabs_para {
+        font-size: 20px;
+    }
+
+    .Featu_tabs_head h3 {
+        font-size: 24px;
+        margin: 20px 0 20px 80px;
+    }
+
+    .Featu_tabs {
+        padding: 50px;
+    }
+
+    .innovations_lt h3 {
+        font-size: 20px;
+    }
+
+    .innovations_rt h3 {
+        font-size: 14px;
+    }
+
+    .inno_rt_child {
+        gap: 15px;
+    }
+
+    .inno_rt_child img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .insta_top {
+        /*margin-left: 68px;*/
+    }
+
+    .insta_top img {
+        width: 60%;
+    }
+
+    .Featured {
+        margin-top: 60px;
+    }
+
+    /*.why_solar {*/
+    /*    margin-top: 70px;*/
+    /*}*/
+
+    .innovations {
+        margin-top: 70px;
+    }
+
+    .instagram {
+        margin-top: 60px;
+        padding: 60px 0;
+    }
+
+    .series {
+        margin-top: 70px;
+    }
+
+    .ser_bot {
+        padding: 24px;
+        padding-bottom:0;
+    }
+
+    .innovations_top {
+        margin-bottom: 36px;
+    }
+
+    .innovations_rt {
+        gap: 20px;
+    }
+
+    /*.innovations_top {*/
+    /*    margin-bottom: 40px;*/
+    /*}*/
+
+    .hero_play span {
+        font-size: 16px;
+    }
+
+    .coman_btn {
+        padding: 6px 10px;
+    }
+
+    /* services new style */
+
+    .services_hero {
+        /* padding-top: 150px; */
+    }
+
+    .services_hero .sub_head_white {
+        font-size: 16px;
+    }
+
+    /* .homeowners_ser {
+        padding: 30px;
+    } */
+
+    .dropdown-menu.mega-menu {
+        transform: translate3d(0px, 85px, 0px) !important;
+    }
+
+    .advantages {
+        padding: 60px 0;
+    }
+
+    .advantages_rt {
+        font-size: 18px;
+        row-gap: 25px;
+    }
+
+    .advantages_rt li .ri-circle-fill {
+        font-size: 10px;
+    }
+     .advantages_accordion .ri-circle-fill {
+        font-size: 10px;
+    }
+
+    .advantages_rt li {
+        padding-bottom: 15px;
+        gap: 25px;
+    }
+
+    .advantages_rt_main {
+        padding: 0 0 0 40px;
+    }
+
+    .con_bt_child {
+        padding: 0 35px;
+    }
+
+    .consultation {
+        padding: 50px 0;
+    }
+
+    .consultation_bt {
+        padding: 30px 0;
+    }
+
+    .head_white {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .sub_head_white {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .why_choose_bt {
+        padding: 30px;
+    }
+
+    .why_choose_bt h3, .why_choose_title{
+        font-size: 28px;
+    }
+
+    .why_choose_bt img {
+        width: 80px;
+    }
+
+    .according_main {
+        margin-bottom: 20px;
+    }
+
+    .according_main .sub_head {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .faq {
+        padding: 60px 0;
+    }
+
+    .mega_menu_child {
+        padding: 30px;
+    }
+
+    /* .homeowners_ser_main {
+        margin: -100px auto 0 auto;
+    } */
+    
+    .overview_main
+{
+   /*margin: -100px auto 0 auto;*/
+}
+
+
+    .homeowners_ser .about_head {
+        margin-bottom: 18px;
+    }
+    
+    .envi_frien .envi_frien_content {
+    width: 600px;
+    padding: 30px 45px;
+}
+
+.envi_frien .envi_frien_content h3, .expert-name{
+    font-size: 32px;
+    line-height: 42px;
+    margin: 15px 0;
+}
+
+.envi_frien {
+    padding-top: 100px;
+}
+
+.solar-grid-system
+{
+     padding: 40px;
+}
+
+.installation {
+    padding: 50px 0;
+}
+
+.footer-logo 
+{
+    width:150px;
+}
+
+.hero_rt
+{
+   margin: unset;
+}
+
+.about {
+    margin-top: 180px;
+}
+
+.mile_nav {
+    margin-bottom: 40px;
+   
+}
+
+
+}
+
+@media only screen and (max-width:1440px)
+{
+   .manufacturer_solar .OEM_counter .head2 {
+        font-size: 20px;
+    }
+    .manufacturer_solar .Sustainable_bot {
+    padding: 0 10px;
+}
+   .contact-wrapper svg
+   {
+       width:40px;
+   }
+   
+   .precision_icon 
+   {
+       padding:12px 0; 
+   }
+   
+   .precision_icon svg
+   {
+       width:60px;
+   }
+   
+   .downloads_img h2, .downloads_wrap h2 {
+    font-size: 22px;
+    }
+    
+    .downloads_img svg
+    {
+        width:60px;
+    }
+    
+    .downloads_wrap {
+    padding: 10px 20px 10px 0px;
+    margin-bottom: 15px;
+    }
+
+    .milestoneul li {
+        padding-bottom: 15px;
+        margin-bottom: 25px;
+    }
+
+    .Sustainable_bot p {
+        font-size: 16px;
+    }
+    
+        .Sustainable_bot .head2 {
+        font-size: 30px;
+    }
+    
+    .Sustainable {
+    padding: 70px 0;
+    }
+
+    .milestone {
+        padding: 70px 0;
+    }
+    
+        .mile_nav {
+        margin-bottom: 30px;
+    }
+    
+    .mile_nav .nav-link.active {
+    font-size: 36px;
+    }
+    
+    .mile_nav .nav-link {
+    font-size: 28px;
+    }
+    
+    .mile_nav .dot {
+    width: 15px;
+    height: 15px;
+    }
+    
+    .mile_nav::before {
+    top: 20%;
+    height: 2px;
+    }
+    
+    .overview
+    {
+      padding: 30px 80px;
+    }
+    
+    .our_solar_purpose
+    {
+        margin:30px 0;
+    }
+    
+    .vision-mission
+    {
+        padding-bottom: 40px;
+    }
+    
+    .member-name {
+    font-size: 24px;
+    }
+    
+    .overview_tabs
+    {
+        gap:20px;
+    }
+    
+    .overview_tabs .nav-link img {
+    width: 60px;
+    }
+
+    .overview_tabs .nav-link.active img, .overview_tabs .nav-link:focus img, .overview_tabs .nav-link:focus-visible img {
+        height: 80px;
+    }
+    
+    .member-bio {
+        text-align: left;
+    }
+    
+    .clients_box {
+    gap: 15px;
+}
+
+.clients_wrapper {
+    gap: 15px;
+}
+
+
+.vid_wrapper .sub_head
+{
+    font-size:22px;
+    line-height: 30px;
+      margin-top: 15px;
+}
+
+.footer {
+    margin-top: 60px;
+}
+
+.form_locator .form-group {
+    margin-bottom: 30px;
+}
+
+.form_locator input, .form_locator select, .form_locator textarea {
+    padding: 10px 12px;
+}
+
+.blog-list-title {
+    font-size: 22px;
+   
+}
+
+.blog-box .coman_btn {
+    padding: 4px 25px;
+    height: 50px;
+    width: 50px;
+}
+
+.sub_head {
+    font-size: 20px;
+  
+}
+
+    /*.hero_lt h3 {*/
+    /*        font-size: 42px;*/
+    /*    }*/
+    
+        .head_white {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    
+    .installation {
+    padding: 70px 0;
+}
+
+.Sustainable_head
+{
+   padding:0 10px;
+}
+
+.Sustainable_head .head2
+{
+    font-size:24px;
+}
+
+ header {
+    padding: 12px 0;
+    }
+    
+    .navbar-toggler
+    {
+      width: 40px;
+      height: 40px;
+    }
+
+    .services_hero_img{
+                height:420px;
+            }
+
+            .services_hero_img_new
+            {
+                height: auto;
+            }
+
+}
+
+@media only screen and (max-width:1281px){
+    
+        .footer-logo {
+        width: 120px;
+    }
+    
+    .clients_slide {margin: auto 0px;}
+    .clients_slide img {width: 80%;}
+    .homeowners_ser .about_head { 
+        font-size: 30px;}
+            .header-logo {
+        width: 215px;
+    }
+    .services_hero .hero_lt{    top: 30%;}
+    
+        .contact-wrapper {
+        padding: 10px 20px;
+    }
+}
+@media (max-width:1050px) {
+    .services_hero_img {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .head_white {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    /*.hero_lt h3 {*/
+    /*    font-size: 50px;*/
+    /*    line-height: 16px;*/
+    /*}*/
+
+    .services_hero .sub_head_white {
+        font-size: 16px;
+    }
+
+    .services_hero .hero_lt {
+        top: 26%;
+    }
+
+    .advantages_rt {
+        column-gap: 50px;
+    }
+
+}
+
+@media (max-width:786px) {
+    
+     .solar-table th,
+    .solar-table td {
+        padding: 10px 8px;
+        font-size: 15px;
+    }
+
+    .solar-table {
+        font-size: 15px;
+    }
+    
+    .envi_frien .envi_frien_content
+    {
+        width:100%;
+    }
+    
+        .envi_frien .envi_frien_content {
+     
+        padding: 15px 30px;
+    }
+      
+
+    .solar-grid-system {
+        padding: 30px;
+    }
+    .series {
+        margin-top: 60px;
+    }
+
+    .header-logo {
+        width: 200px;
+    }
+
+    .navbar-toggler {
+        height: 40px;
+        width: 40px;
+    }
+
+    .hero_con {
+        /* max-width: 100%; */
+    }
+
+    /*.hero_lt h3 {*/
+    /*    font-size: 36px;*/
+    /*    line-height: 15px;*/
+    /*}*/
+
+    .hero_head {
+        font-size: 30px;
+    }
+
+    .hero {
+        padding-bottom: 80px;
+        padding-top: 120px;
+        background-position: left;
+    }
+
+    .clients {
+        max-width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 50px;
+        box-shadow: none;
+    }
+
+    .head {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    .head2 {
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    .nav-itm {
+        display: none;
+    }
+
+    .why_solar {
+        background: none;
+        margin-top: 60px;
+    }
+
+    .Featu_tabs .Featu_tabs_ul li .nav-link {
+        padding: 7px 15px;
+    }
+
+    .Featu_tabs .Featu_tabs_ul {
+        padding-bottom: 12px;
+        gap: 20px;
+    }
+
+    .Featu_tabs {
+        padding: 20px;
+    }
+
+    .Contendre_card p {
+        font-size: 20px;
+    }
+
+    .Our_Pro_card,
+    .blogs_slide {
+        margin: 0 10px;
+    }
+
+    .ym_cpy {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .footer {
+        height: auto;
+        background: none;
+    }
+
+    .footer-logo {
+        width: 150px;
+    }
+
+    .coman_line,
+    .Contendre .head,
+    .why_solar .head,
+    .Featu_tabs_head h3 {
+        margin-left: 0;
+    }
+
+    .coman_line::before,
+    .Contendre .head::before,
+    .why_solar .head::before,
+    .Featu_tabs_head h3::before {
+        content: none;
+    }
+
+    .nav-itm_2 {
+        display: block;
+    }
+
+    .Our_Product {
+        margin: 60px 0;
+    }
+
+    .Contendre {
+        margin-top: 60px;
+    }
+
+    .hero_para {
+        font-size: 14px;
+    }
+
+    .about {
+        margin-top: 50px;
+    }
+
+    .about_head {
+        font-size: 24px;
+    }
+
+    .style_head {
+        /*font-size: 28px;*/
+        font-size: 24px;
+    }
+
+    .ser_bot {
+        padding: 24px 0px;
+    }
+
+    .Precision {
+        margin-top: 50px;
+        padding-top: 35px;
+        background: linear-gradient(to bottom, #F8F2EA 100%, transparent 0%);
+    }
+
+    .Sustainable_bot {
+
+        border-left: none;
+    }
+
+    .Featured {
+        margin-top: 50px;
+    }
+
+    .innovations {
+        margin-top: 60px;
+    }
+
+    .innovations_lt {
+        padding: 0 0;
+    }
+
+    .insta_top {
+        /*margin-left: 0;*/
+        gap: 20px;
+    }
+
+    .inno_lt_bor {
+        border: none;
+    }
+
+    .instagram {
+        margin-top: 60px;
+        padding: 50px 0;
+    }
+
+    .insta_bot {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .insta_top {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .insta_top .head2 {
+        font-size: 20px;
+    }
+
+    .insta_top img {
+        width: 50px;
+    }
+
+    .ft_left {
+        padding: 0;
+    }
+
+    .mega_menu_child {
+        padding: 15px;
+        height: 80vh;
+        overflow-y: scroll;
+    }
+
+    .according_main .sub_head {
+        font-size: 16px;
+        padding-right: 30px;
+    }
+
+    .why_choose_bt {
+        padding: 20px;
+    }
+
+    .head_white {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .consultation_bt {
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .con_bt_child {
+        border-left: none;
+        padding: 0 0;
+    }
+
+    .advantages {
+        padding: 30px 0;
+    }
+
+    .advantages_rt {
+        grid-template-columns: 1fr;
+    }
+
+    .advantages_rt_main {
+        padding: 0;
+    }
+
+    .homeowners_ser_main {
+        /* margin: 0 auto 0 auto; */
+        /* margin-top: 60px; */
+    }
+    
+    .overview_main
+{
+      /*margin: 0 auto 0 auto; */
+}
+
+
+    /* .homeowners_ser {
+        padding: 15px;
+    } */
+
+    .services_hero_img {
+        position: sticky;
+        top: 0px;
+        z-index: -2;
+    }
+
+    .services_hero .sub_head_white {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .services_hero .hero_lt {
+        top: 23%;
+    }
+
+    .dropdown-menu.mega-menu {
+        transform: translate3d(0px, 74px, 0px) !important;
+    }
+    
+    .footer_top {
+    padding-bottom: 30px;
+}
+
+.cta-img {
+    margin-top: 10px;
+}
+
+.overview {
+    
+    padding: 50px 50px;
+}
+
+.overview_tabs_main
+{
+      margin-top: 0em !important;
+}
+
+.overview_tabs {
+
+    gap: 10px;
+
+}
+
+.overview_tabs .nav-link.active img, .overview_tabs .nav-link:focus img, .overview_tabs .nav-link:focus-visible img {
+  
+    height: 60px;
+
+}
+
+.overview_tabs .nav-link img {
+    width: 70px;
+}
+
+.OEM_counter {
+
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Sustainable_bot {
+    padding: 0 20px;
+  
+}
+
+    .Sustainable_bot .head2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+        .Sustainable {
+        padding: 50px 0;
+    }
+    
+    .quali_slider img {
+    margin-inline: 10px;
+}
+
+.milestone {
+   
+    padding: 40px 0;
+   
+}
+
+.mile_nav .dot {
+    width: 10px;
+    height: 10px;
+   
+    margin: 3px;
+}
+
+.mile_nav {
+    margin-bottom: 20px;
+    
+    justify-content: space-around;
+}
+
+.mile_nav .nav-link {
+   
+    font-size: 16px;
+   
+    padding: 0px;
+}
+
+.mile_nav .nav-link.active {
+   
+    font-size: 24px;
+   
+}
+
+.mile_nav::before {
+   
+    top: 15%;
+   
+}
+
+.clients_wrapper,
+.clients_box{
+    gap: 5px;
+}
+
+.services_hero {
+    margin-bottom: 40px;
+}
+
+.series_bot {
+    margin-top: 20px;
+   
+}
+
+.products {
+   
+    padding: 35px 0 35px 0;
+}
+
+.feature_wrapper {
+  
+    grid-template-columns: repeat(1, 1fr);
+   
+    gap: 24px;
+}
+
+.feature_box {
+    padding: 25px;
+}
+
+  .distributor-table,
+  .distributor-table thead,
+  .distributor-table tbody,
+  .distributor-table th,
+  .distributor-table td,
+  .distributor-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .distributor-table thead {
+    display: none; /* Hide the header row on mobile */
+  }
+
+
+
+
+  .distributor-table td:last-child {
+    border-bottom: none;
+  }
+
+  /* Add table headers as labels before each cell */
+  .distributor-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 100px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  /* Adjust inner text styles */
+  .distributor-table h2.sub_head {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .distributor-table ul {
+    padding-left: 15px;
+  }
+
+  .distributor-table ul li {
+    font-size: 14px;
+  }
+  
+  .contact-wrapper
+  {
+     margin-bottom:24px; 
+  }
+  
+  .downloads-pills {
+    gap: 6px;
+    
+     padding: 0; 
+}
+
+.downloads-pills .nav-link {
+  
+  
+    font-size: 16px;
+    padding: 8px 12px;
+  
+   
+}
+
+.downloads_wrap {
+   
+    gap: 20px;
+     justify-content: start; 
+    display: block;
+}
+
+.downloads_img {
+  
+    gap: 15px;
+            margin-bottom: 5px;
+}
+
+.downloads_img svg
+{
+    width:50px;
+}
+
+.downloads_img h2
+{
+    font-size:16px;
+}
+
+.contact-wrapper {
+
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    padding: 0 0;
+}
+
+.contant_detail {
+    box-shadow: unset;
+}
+
+.contact-wrapper-title {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+ .our_solar_purpose
+    {
+        margin:20px 0;
+    }
+    
+        .homeowners_ser .about_head {
+        font-size: 24px;
+    }
+    
+        .installation {
+        padding: 30px 0;
+    }
+    
+    ul.two-column {
+    -webkit-columns: 1;
+    }
+    
+     ul.two-column li{
+      margin-bottom:10px;
+    }
+    
+    .coman_down img
+    {
+      filter: invert(1);   
+    }
+
+
+    /* services new style */
+
+}
+
+
+
+@media (max-width:425px) {}

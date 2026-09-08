@@ -1,0 +1,1178 @@
+:root {
+    --cs-orange: var(--orange, #F16F24);
+    --cs-dark: var(--black, #111111);
+    --cs-para: var(--wb-para, #333333);
+    --cs-subtext: var(--wb-black, #666666);
+    --cs-card-bg: #F8F2EA;
+    --cs-white: var(--white, #FFFFFF);
+    --font-heading: 'IBM Plex Sans', sans-serif;
+    --font-body: 'Public Sans', sans-serif;
+    --white:#FFFFFF;
+}
+
+/* ==========================================================================
+   Global Theme Integration (from style.css)
+   ========================================================================== */
+.channel_sales_wrapper {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: var(--font-body);
+    color: var(--wb-para);
+}
+
+.channel_sales_wrapper h1,
+.channel_sales_wrapper h2,
+.channel_sales_wrapper h3,
+.channel_sales_wrapper h4,
+.channel_sales_wrapper h5,
+.channel_sales_wrapper h6,
+.channel_sales_wrapper .head,
+.channel_sales_wrapper .head2,
+.channel_sales_wrapper .style_head,
+.channel_sales_wrapper .sub_head,
+.channel_sales_wrapper .cs_h2,
+.channel_sales_wrapper .cs_h3,
+.channel_sales_wrapper .cs_hero_title,
+.channel_sales_wrapper .cs_hero_subtitle,
+.channel_sales_wrapper .cs_who_title,
+.channel_sales_wrapper .cs_model_name,
+.channel_sales_wrapper .cs_faq_header,
+.channel_sales_wrapper .epc_sector_name {
+    font-family: var(--font-heading) !important;
+}
+
+.channel_sales_wrapper p,
+.channel_sales_wrapper span:not(.cs_model_num):not(#devStepNum):not(.project_type_icon),
+.channel_sales_wrapper li,
+.channel_sales_wrapper a:not(.coman_btn):not(.cs_hero_btn),
+.channel_sales_wrapper .cs_hero_para,
+.channel_sales_wrapper .cs_body_18,
+.channel_sales_wrapper .cs_desc,
+.channel_sales_wrapper .cs_intro_text,
+.channel_sales_wrapper .cs_faq_body,
+.channel_sales_wrapper .lead {
+    font-family: var(--font-body);
+}
+
+
+/* .channel_sales_wrapper .cs_desc {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--wb-black);
+} */
+
+/* .channel_sales_wrapper .cs_body_18 {
+    font-family: var(--font-body) !important;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--wb-para) !important;
+} */
+
+/* .channel_sales_wrapper .lead {
+    font-family: var(--font-body) !important;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--wb-black);
+} */
+
+.channel_sales_wrapper .precision_icon p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--black);
+    margin-bottom: 0;
+}
+
+.channel_sales_wrapper .style_head {
+    color: var(--orange) !important;
+    font-family: var(--font-heading) !important;
+}
+
+.channel_sales_wrapper .sub_head {
+    color: var(--wb-para) !important;
+    font-family: var(--font-heading) !important;
+}
+
+.channel_sales_wrapper .coman_btn,
+.channel_sales_wrapper .cs_hero_btn,
+.channel_sales_wrapper button {
+    font-family: var(--font-heading) !important;
+}
+
+/* White Header Background Only For Channel Sales, EPC, and Solar Developer */
+#header.cs_white_header {
+    background-color: #FFFFFF !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
+    border-bottom: 1px solid #EDEDED !important;
+    transition: all 0.3s ease;
+}
+
+#header.cs_white_header .nav-itm select,
+#header.cs_white_header .goog-te-combo {
+    color: #111111 !important;
+}
+
+#header.cs_white_header .custom-select {
+    color: #111111 !important;
+}
+
+#header.cs_white_header .custom-select .icon img {
+    filter: brightness(0) invert(0) !important;
+}
+
+#header.cs_white_header .coman_down {
+    border: 1px solid #111111 !important;
+    color: #111111 !important;
+    background: #FFFFFF !important;
+}
+
+#header.cs_white_header .coman_down:hover {
+    background: #111111 !important;
+    color: #FFFFFF !important;
+}
+
+#header.cs_white_header .coman_down img {
+    filter: brightness(0) invert(0) !important;
+}
+
+#header.cs_white_header .coman_down:hover img {
+    filter: brightness(0) invert(1) !important;
+}
+
+#header.cs_white_header .navbar-toggler {
+    background: #FFFFFF !important;
+    border: 1px solid #D6D6D6 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+#header.cs_white_header .navbar-toggler .icon-bar {
+    background-color: #111111 !important;
+}
+
+
+/* 1. Hero Section Matching Figma Screenshot (Node 75:10 / 75:12 / 75:47) */
+.cs_hero_section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url('../images/channel_sales/hero_banner.webp') center top / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: var(--white);
+}
+
+.cs_hero_section.epc_page_bg {
+    background: url('../images/epc/epc_hero_banner.webp') center top / cover no-repeat !important;
+}
+
+.cs_hero_section.dev_page_bg {
+    background: linear-gradient(180deg, rgba(98, 155, 192, 0.92) 0%, rgba(98, 155, 192, 0.75) 50%, rgba(17, 17, 17, 0.85) 100%), url('../images/epc/figma_solar_developer_hero_bg.webp') center top / cover no-repeat !important;
+}
+
+.cs_hero_subtitle {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.cs_hero_title {
+    font-family: var(--font-heading);
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 66px;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.cs_hero_para {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    max-width: 1198px;
+    margin: 0 auto 16px;
+}
+
+.cs_hero_quote_text {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.cs_hero_btn {
+    background: #F16F24;
+    color: #FFFFFF !important;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 24px;
+    border-radius: 0px;
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.cs_hero_btn:hover {
+    background: #d85c14;
+    color: #FFFFFF;
+}
+
+.cs_intro_head_title span {
+    color: #F16F24 !important;
+}
+
+
+/* 1920px Figma Screen Container Alignment (1440px content canvas) */
+@media (min-width: 1400px) {
+
+    /* .channel_sales_wrapper .container,
+    .cs_intro_section .container,
+    .cs_steps_section .container,
+    .cs_faq_section .container,
+    .cs_dealership_banner .container,
+    .cs_final_section .container {
+        max-width: 1440px !important;
+    } */
+}
+
+
+
+/* Section Header Pattern matching Figma 75:66 (0bdcbe64) */
+.cs_intro_section {
+    padding: 60px 0 40px;
+}
+
+.cs_intro_card {
+    background: #FFFFFF;
+    box-shadow: 2px 6px 10px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 46px 84px;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.cs_intro_text {
+    font-family: 'Public Sans', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 28px !important;
+    color: #333333 !important;
+    text-align: center;
+    max-width: 1272px;
+    margin: 0 auto;
+}
+
+
+.cs_section_header {
+    text-align: center;
+    margin: 0 auto 24px;
+}
+
+.cs_section_header .cs_subhead {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--cs-orange);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.cs_section_header .cs_title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 52px;
+    color: var(--cs-dark);
+    margin-bottom: 12px;
+}
+
+.cs_title_bar {
+    width: 60px;
+    height: 3px;
+    background: var(--cs-orange);
+    margin: 12px auto 16px;
+    border-radius: 2px;
+}
+
+.cs_section_header .cs_desc {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--cs-para);
+    margin: 0 auto;
+}
+
+/* Typography matching Figma exact sizes & weights */
+.cs_h3 {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    line-height: 34px !important;
+    color: var(--black) !important;
+}
+
+/* .cs_body_18 {
+    font-family: 'Public Sans', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 28px !important;
+    color: var(--wb-para) !important;
+} */
+
+.cs_hero_quote {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-size: 24px !important;
+    font-style: italic;
+    font-weight: 700 !important;
+    line-height: 34px !important;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+/* Intro Section Card Matching Figma 0bdcbe64 */
+.cs_intro_card {
+    background: #FFFFFF;
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 46px 84px;
+    margin: -60px auto 0;
+    position: relative;
+    z-index: 10;
+    max-width: 1440px;
+}
+
+.cs_intro_head {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #111111;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.cs_intro_head span {
+    color: #F16F24 !important;
+}
+
+.cs_intro_text {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    text-align: center;
+    max-width: 1272px;
+    margin: 0 auto;
+}
+
+/* 4. Why Contendre Solar 8-Cards (Figma Frame 2786) */
+.why_contendre_slider .slick-track {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.why_contendre_slider .slick-slide {
+    height: auto !important;
+    display: flex !important;
+}
+
+.why_contendre_slider .slick-slide > div {
+    display: flex !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.why_contendre_slider .slick-slide .px-2 {
+    display: flex !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.cs_why_card_item {
+    background: #F8F2EA;
+    padding: 32px 24px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 100% !important;
+    box-sizing: border-box;
+}
+
+.cs_why_card_item:hover {
+    transform: translateY(-6px);
+}
+
+.cs_card_icon_wrap {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.cs_card_icon_wrap img {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.cs_why_card_item .cs_h3 {
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #111111;
+    margin-bottom: 14px;
+    /* min-height: 64px; */
+}
+
+.cs_why_card_item .cs_body_18 {
+    margin-bottom: 0 !important;
+    flex-grow: 1;
+}
+
+/* 5. Who Can Become Partner Staggered Grid (Figma Frame 2787) */
+.cs_who_card {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cs_who_card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.94) 100%);
+    z-index: 1;
+}
+
+.cs_who_card:hover {
+    transform: translateY(-6px);
+}
+
+.cs_who_content {
+    position: relative;
+    z-index: 2;
+}
+
+.cs_who_title {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.cs_who_card_solid {
+    background: #F8F2EA !important;
+    padding: 44px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cs_who_card_solid::after {
+    display: none;
+}
+
+.cs_who_card_solid .cs_who_title {
+    color: #333333;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
+.cs_who_card_solid .cs_who_desc {
+    color: #333333;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* 6. Partnership Models 01, 02, 03 (Figma Frame 2803) */
+.sectors_slider .slick-track {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.sectors_slider .slick-slide {
+    height: auto !important;
+    display: flex !important;
+}
+
+.sectors_slider .slick-slide > div {
+    display: flex !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.sectors_slider .slick-slide .px-2 {
+    display: flex !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.epc_sector_card {
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    overflow: hidden !important;
+}
+
+.epc_sector_card:hover {
+    /* border-color: #F16F24; */
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.epc_sector_card .epc_sector_img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.epc_sector_card:hover .epc_sector_img {
+    transform: scale(1.04);
+}
+
+.epc_sector_body {
+    padding: 24px;
+}
+
+.epc_sector_tag {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F16F24;
+    margin-bottom: 8px;
+}
+
+.epc_sector_name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #111111;
+    margin: 0;
+}
+
+.cs_model_box {
+    background: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 24px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.cs_model_box:hover {
+    border-color: #F16F24;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.cs_model_num {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #F16F24;
+    margin-right: 16px;
+}
+
+.cs_model_name {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #333333;
+    margin: 0;
+}
+
+.cs_model_desc {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+/* 9 & 10. Images for Government Subsidy & Join Network */
+.cs_tagline_box {
+    border-left: 4px solid #F16F24;
+    padding-left: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #111111;
+    margin: 24px 0;
+}
+
+/* 11. Dealership & Case Studies Dark Banners (Figma 1:884 / 75:1505) */
+.cs_dealership_banner,
+.cs_sustainability_banner {
+    color: #FFFFFF;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cs_dealership_banner {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url('../images/channel_sales/Whisk_bead3258ca__1__1_1_946.png') center center / cover no-repeat;
+}
+
+.cs_banner_tag {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--orange);
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    font-family: var(--font-heading);
+}
+
+.cs_banner_title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 52px;
+    margin-bottom: 24px;
+    font-family: var(--font-heading);
+}
+
+.cs_banner_desc {
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-weight: 400;
+    max-width: 960px;
+    margin-bottom: 30px;
+    font-family: var(--font-body);
+}
+
+/* 12. FAQ Section in Figma Background #F8F2EA */
+.cs_faq_section {
+    background: #F8F2EA;
+    padding: 100px 0;
+}
+
+.cs_faq_section .accordion-item,
+.cs_faq_section .according_main {
+    /* background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+    padding: 18px 24px; */
+}
+
+
+/* 8. 5-Step Partnership Journey (Figma Frame 2781) */
+.cs_steps_section {
+    padding-bottom: 100px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.85) 30%, rgba(255, 255, 255, 0) 100%), url('../images/Featured-bg.png') center bottom / cover no-repeat;
+}
+
+.cs_step_container {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.cs_step_tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.cs_step_btn {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: #111111;
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #E0E0E0;
+    flex-shrink: 0;
+}
+
+.cs_step_btn.active,
+.cs_step_btn:hover {
+    background: #F16F24 !important;
+    color: #FFFFFF !important;
+    border-color: #F16F24 !important;
+    box-shadow: 0 4px 15px rgba(241, 111, 36, 0.3);
+}
+
+.cs_step_line {
+    flex-grow: 1;
+    height: 1px;
+    background: #E0E0E0;
+    margin: 0 10px;
+}
+
+.cs_btn_orange {
+    background: var(--cs-orange) !important;
+    color: #FFFFFF !important;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 28px;
+    font-weight: 500;
+}
+
+.cs_step_content_pane {
+    display: none;
+    animation: fadeIn 0.4s ease;
+}
+
+.cs_step_content_pane.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 9. Government Subsidy Section (Figma About 1:836) */
+/* 10. Join Trusted Network Split Section (Figma Content Split Row 1:853) */
+
+/* Client Logos Slider Box */
+.cs_client_box {
+    width: 220px;
+    height: 100px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+.cs_client_box img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.cs_layered_images {
+    position: relative;
+    min-height: 500px;
+}
+
+.cs_img_back {
+    width: 82%;
+    border-radius: 14px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.cs_img_front {
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+    width: 65%;
+    border-radius: 14px;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.cs_stamp_badge {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    width: 90px;
+    height: 90px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 11. Dealership Opportunities Dark Banner (Figma dealership-opportunities 1:884) */
+.cs_dealership_banner {
+    background: linear-gradient(135deg, rgba(17, 17, 17, 0.92) 0%, rgba(30, 30, 30, 0.9) 100%), url('../images/channel_sales/Whisk_bead3258ca__1__1_1_946.webp') center center / cover no-repeat;
+    color: #FFFFFF;
+    padding: 100px 0;
+}
+
+/* 12. FAQs Section (Figma Frame 380) */
+
+.cs_faq_item {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+}
+
+.cs_faq_header {
+    padding: 24px 28px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cs-para);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.cs_faq_header:hover {
+    color: var(--cs-orange);
+}
+
+.cs_faq_icon {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cs-dark);
+    margin-left: 15px;
+}
+
+.cs_faq_body {
+    padding: 0 28px 24px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--cs-subtext);
+}
+
+/* 13. Sustainability Final CTA (Figma Sustainablity 1:927) */
+.cs_final_section {
+    background: linear-gradient(135deg, rgba(17, 17, 17, 0.678) 0%, rgba(30, 30, 30, 0.505) 100%), url('../images/channel_sales/Whisk_bead3258ca__1__1_1_946.webp') center center / cover no-repeat;
+    padding: 110px 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cs_sub_title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cs-orange);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+/* Button sizing with project coman_btn integration */
+.cs_steps_section .coman_btn,
+.cs_network_section .coman_btn,
+.cs_final_section .coman_btn {
+    font-size: 16px;
+    padding: 12px 28px;
+    cursor: pointer;
+}
+
+/* Slider Dots Styling (Moved responsive rules to channel-sales-responsive.css) */
+.why_contendre_slider .slick-dots {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 35px 0 0 !important;
+    list-style: none !important;
+    position: relative !important;
+    z-index: 10 !important;
+    bottom: auto !important;
+}
+
+.why_contendre_slider .slick-dots li {
+    margin: 0 2px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 24px !important;
+    height: 24px !important;
+    cursor: pointer !important;
+}
+
+.why_contendre_slider .slick-dots li button {
+    font-size: 0 !important;
+    line-height: 0 !important;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background: #D1D1D1 !important;
+    border: none !important;
+    padding: 0 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    display: block !important;
+    outline: none !important;
+    pointer-events: auto !important;
+}
+
+.why_contendre_slider .slick-dots li button:before {
+    display: none !important;
+}
+
+.why_contendre_slider .slick-dots li.slick-active button {
+    background: #F16F24 !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.why_contendre_slider .slick-dots li:hover button {
+    background: #F16F24 !important;
+}
+
+/* Sectors Slider Dots Styling */
+.sectors_slider {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.sectors_slider .slick-dots {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    z-index: 10;
+}
+
+.sectors_slider .slick-dots li {
+    margin: 0 4px !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+}
+
+.sectors_slider .slick-dots li button {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background: #E0E0E0 !important;
+    border: none !important;
+    padding: 0 !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    display: block !important;
+}
+
+.sectors_slider .slick-dots li button:before {
+    display: none !important;
+    content: '' !important;
+}
+
+.sectors_slider .slick-dots li.slick-active button {
+    background: #F16F24 !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+/* Track Record Timeline Styling matching Figma exact specs */
+.track_timeline_container {
+    position: relative;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.track_timeline_main_line {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    right: 8%;
+    height: 1.5px;
+    background: #C4C4C4;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.track_timeline_row {
+    position: relative;
+    z-index: 2;
+}
+
+.track_item {
+    text-align: center;
+    position: relative;
+    padding: 0 5px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.track_item_top {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.track_item_bottom {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.track_dot_wrapper {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+}
+
+.track_dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #F16F24;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 0 0 4px rgba(241, 111, 36, 0.25);
+    position: relative;
+    z-index: 4;
+}
+
+/* Stem line coming from top icon down into center of dot */
+.stem_top .track_dot::before {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 48px;
+    background: #F16F24;
+    z-index: -1;
+}
+
+/* Stem line coming from center of dot down into bottom icon */
+.stem_bottom .track_dot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 48px;
+    background: #F16F24;
+    z-index: -1;
+}
+
+.track_icon_circle {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.07), 0 4px 12px rgba(0, 0, 0, 0.04);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.track_icon_circle img {
+    width: 62px;
+    height: 62px;
+    object-fit: contain;
+}
+
+.track_number {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 2px;
+    line-height: 28px;
+}
+
+.track_title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--orange);
+    margin-bottom: 6px;
+    line-height: 20px;
+}
+
+.track_desc {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: var(--wb-black);
+    margin: 0;
+    max-width: 210px;
+}
