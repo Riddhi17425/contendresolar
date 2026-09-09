@@ -2241,5 +2241,52 @@ letter-spacing: -0.36px;
     font-size:35px;
 }
 
+/*  author-box CSS add*/
+.author-box {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    border: 1px solid var(--bor-grey);
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.author-avatar-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.author-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 4px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.author-role {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--orange);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.author-bio {
+    font-size: 15px;
+    color: var(--wb-black);
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+/*  author-box CSS */
+
+
 
 

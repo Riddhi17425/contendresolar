@@ -1,13 +1,14 @@
 @include('layouts.frontheader')
-@include('layouts.hero_section' , ['pageName' => 'Blog-Details'])
+@include('layouts.hero_section', ['pageName' => 'Blog-Details'])
 
 
 <div class="homeowners_ser_main">
     <div class="container">
         <div class="homeowners_ser">
-               <div>
-                   <p style="font-size: large;" class="mb-1">{{ \Carbon\Carbon::parse($blogs->date)->format('F jS, Y') }} </p>
-               <h1 class="head2">{{ $blogs->title }}</h1>
+            <div>
+                <p style="font-size: large;" class="mb-1">{{ \Carbon\Carbon::parse($blogs->date)->format('F jS, Y') }}
+                </p>
+                <h1 class="head2">{{ $blogs->title }}</h1>
             </div>
         </div>
     </div>
@@ -16,39 +17,63 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7 mb-4">
-            <img src="{{ asset('public/blogs/blog_detail_image/' . $blogs->detail_image) }}" alt="{{  str_replace(['-', '_'],' ', pathinfo($blogs->detail_image, PATHINFO_FILENAME)) }}" class="img-fluid w-100">
+                <img src="{{ asset('public/blogs/blog_detail_image/' . $blogs->detail_image) }}"
+                    alt="{{ str_replace(['-', '_'], ' ', pathinfo($blogs->detail_image, PATHINFO_FILENAME)) }}"
+                    class="img-fluid w-100">
             </div>
             <div class="col-lg-12">
                 {!! $blogs->short_description !!}
             </div>
         </div>
         {!! $blogs->description !!}
-        
-        @if(!empty($blogs->blog_cta_image))
+
+        @if (!empty($blogs->blog_cta_image))
             <a href="{{ route('contact.us') }}" target="_blank">
-                <img src="{{ asset('public/blogs/blog_cta_image/' . $blogs->blog_cta_image) }}" alt="{{  str_replace(['-', '_'],' ', pathinfo($blogs->blog_cta_image, PATHINFO_FILENAME)) }}" class="img-fluid cta-img mb-3" />
+                <img src="{{ asset('public/blogs/blog_cta_image/' . $blogs->blog_cta_image) }}"
+                    alt="{{ str_replace(['-', '_'], ' ', pathinfo($blogs->blog_cta_image, PATHINFO_FILENAME)) }}"
+                    class="img-fluid cta-img mb-3" />
             </a>
         @endif
-        
-        @if(!empty($blogs->conclusion))
-        <!--<h4 class="mt-4 text-start">Conclusion</h4>-->
+
+        @if (!empty($blogs->conclusion))
+            <!--<h4 class="mt-4 text-start">Conclusion</h4>-->
             {!! $blogs->conclusion !!}
         @endif
+
+        <div class="container">
+            <div class="author-box" id="author-profile">
+                <div class="author-avatar position-relative flex-shrink-0">
+                    <img class="author-avatar-img" src="{{ asset('public/blogs/author_image/author.jpg') }}"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Yash+Sheth&size=100&background=fdece0&color=F16F24'"
+                        alt="Yash Sheth">
+                </div>
+                <div class="author-info">
+                    <h4 class="author-name">Yash Sheth</h4>
+                    <p class="author-role">Founder, Director – Strategy &amp; Operations</p>
+                    <p class="author-bio">
+                        A University of Florida engineering graduate with a minor in renewable energy, Yash Sheth leads
+                        Contendre Solar's operations, sales, and business strategy. With a strong focus on quality,
+                        customer service, and efficient processes, he works closely across teams to drive growth,
+                        strengthen manufacturing capabilities, and build Contendre into a leading solar manufacturer
+                        focused on quality and sustainability.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>
-@if(!empty($faqs))
+@if (!empty($faqs))
     <section class="faq mt-100">
         <div class="container">
-           
+
             <h4 class="head2 animation-top text-center"> FAQs</h4>
             <div class="accordion" id="accordionExample">
                 <div class="row">
-                    @foreach($faqs as $key => $item)
+                    @foreach ($faqs as $key => $item)
                         <div class="col-lg-6">
                             <div class="according_main">
-                                <h5 class="sub_head"
-                                    data-bs-toggle="collapse"
+                                <h5 class="sub_head" data-bs-toggle="collapse"
                                     data-bs-target="#collapse{{ $key }}"
                                     aria-expanded="{{ $key == 0 ? 'true' : 'false' }}"
                                     aria-controls="collapse{{ $key }}">
