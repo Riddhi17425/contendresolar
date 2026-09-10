@@ -34,7 +34,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="head2 cs_intro_head_title animation-top text-center mb-0">Delivering Reliable Solar Solutions <span>Across Industries</span></h2>
+                    <h2 class="head2 cs_intro_head_title animation-top text-center mb-0">Delivering Reliable Solar Solutions Across Industries</h2>
                 </div>
             </div>
             
@@ -174,29 +174,34 @@
 
             <div class="row g-4 cs_who_row">
                 <div class="col-lg-3 col-md-6">
-                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/img_5e2939e5d3567059c17952da9a8406bbd857d741.webp') }}');">
+                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/Residential-Solar.webp') }}');">
                         <div class="cs_who_content">
                             <h3 class="cs_who_title">Residential Solar</h3>
+                            <p class="cs_who_desc">Rooftop solar solutions designed around household energy consumption, available roof space, and long-term savings.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/img_23ee929d68e92dceb0494babacc96fee1398ade4.webp') }}');">
+                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/Commercial-Industrial-Solar.webp') }}');">
                         <div class="cs_who_content">
                             <h3 class="cs_who_title">Commercial & Industrial Solar</h3>
+                            <p class="cs_who_desc">Solar solutions for offices, retail spaces, hotels, institutions, warehouses, manufacturing facilities, and industrial operations looking to manage energy costs, and power requirements.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="cs_who_card cs_who_card_solid">
-                        <h3 class="cs_who_title">Large Scale & Utility-Scale Solar</h3>
-                        <p class="cs_who_desc mt-2">Large-scale solar projects requiring detailed engineering, coordinated execution, high-capacity systems, and disciplined project management.</p>
+                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/Large-Scale-Utility-Scale-Solar.webp') }}');">
+                        <div class="cs_who_content">
+                            <h3 class="cs_who_title">Large Scale & Utility-Scale Solar</h3>
+                            <p class="cs_who_desc">Large-scale solar projects requiring detailed engineering, coordinated execution, high-capacity systems, and disciplined project management.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/img_9e251f71cbf3099819a91b2a53f542a313aca162.webp') }}');">
+                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/Institutional-Infrastructure-Solar.webp') }}');">
                         <div class="cs_who_content">
                             <h3 class="cs_who_title">Institutional & Infrastructure Solar</h3>
+                            <p class="cs_who_desc">Project-specific EPC solutions for both rooftop and ground-mounted installations, depending on site availability and energy requirements.</p>
                         </div>
                     </div>
                 </div>
@@ -218,7 +223,7 @@
             <div class="sectors_slider pb-4">
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/img_12c2fa9b0bd8e1e04028d65ae4c89b8f31835074.webp') }}" alt="Manufacturing & Industrial" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Manufacturing-Industrial.webp') }}" alt="Manufacturing & Industrial" class="epc_sector_img">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">01 / Sector</p>
                             <h3 class="epc_sector_name">Manufacturing & Industrial</h3>
@@ -227,7 +232,7 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/img_54dbbd87cc920b3f51b125a8628c8980da72b3ad.webp') }}" alt="Commercial Buildings" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Commercial-Buildings.webp') }}" alt="Commercial Buildings" class="epc_sector_img">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">02 / Sector</p>
                             <h3 class="epc_sector_name">Commercial Buildings</h3>
@@ -236,7 +241,7 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/img_a6fa0ce6501c7adf2f102807ba4e13a039203004.webp') }}" alt="Corporate Offices" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Corporate-Offices.webp') }}" alt="Corporate Offices" class="epc_sector_img">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">03 / Sector</p>
                             <h3 class="epc_sector_name">Corporate Offices</h3>
@@ -245,10 +250,55 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/img_9e251f71cbf3099819a91b2a53f542a313aca162.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Warehouses-Logistics.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">04 / Sector</p>
-                            <h3 class="epc_sector_name">Institutional & Infrastructure</h3>
+                            <h3 class="epc_sector_name">Warehouses & Logistics</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2">
+                    <div class="epc_sector_card">
+                        <img src="{{ asset('public/front/images/channel_sales/Educational-Institutions.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <div class="epc_sector_body">
+                            <p class="epc_sector_tag">05 / Sector</p>
+                            <h3 class="epc_sector_name">Educational Institutions</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2">
+                    <div class="epc_sector_card">
+                        <img src="{{ asset('public/front/images/channel_sales/Healthcare-Facilities.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <div class="epc_sector_body">
+                            <p class="epc_sector_tag">06 / Sector</p>
+                            <h3 class="epc_sector_name">Healthcare Facilities</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2">
+                    <div class="epc_sector_card">
+                        <img src="{{ asset('public/front/images/channel_sales/Retail-Hospitality.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <div class="epc_sector_body">
+                            <p class="epc_sector_tag">07 / Sector</p>
+                            <h3 class="epc_sector_name">Retail & Hospitality</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2">
+                    <div class="epc_sector_card">
+                        <img src="{{ asset('public/front/images/channel_sales/Residential-Communities.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <div class="epc_sector_body">
+                            <p class="epc_sector_tag">08 / Sector</p>
+                            <h3 class="epc_sector_name">Residential Communities</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2">
+                    <div class="epc_sector_card">
+                        <img src="{{ asset('public/front/images/channel_sales/Infrastructure-Large-Projects.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <div class="epc_sector_body">
+                            <p class="epc_sector_tag">09 / Sector</p>
+                            <h3 class="epc_sector_name">Infrastructure & Large Projects</h3>
                         </div>
                     </div>
                 </div>
@@ -257,7 +307,7 @@
     </section>
 
     <!-- 6. 7-Step Solar EPC Execution Process (Figma Frame 75:1198) -->
-    <section class="cs_steps_section mt-100" style="background: linear-gradient(180deg, #FFFBF5 0%, rgba(255, 251, 245, 0.85) 15%, rgba(255, 251, 245, 0) 53%), url('{{ asset('public/front/images/channel_sales/img_853bfceac08a891359010793f1219289f901ba68.webp') }}') center center / cover no-repeat; padding: 100px 0;">
+    <section class="cs_steps_section mt-100" style="background: linear-gradient(180deg, #FFFBF5 0%, rgba(255, 251, 245, 0.85) 15%, rgba(255, 251, 245, 0) 53%), url('{{ asset('public/front/images/channel_sales/Our-EPC-Process.webp') }}') center center / cover no-repeat; padding: 100px 0;">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="head2 animation-top">Our EPC Process</h2>
@@ -301,10 +351,10 @@
                 <div class="cs_step_content_pane" id="epcStep2">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 28px; font-weight: 600; color: var(--black);">
                         <span class="d-none d-md-inline-block" style="width: 24px; height: 2px; background: var(--orange); margin-right: 15px;"></span>
-                        02. Assess & Plan
+                        02. Assess
                     </h3>
                     <p class="cs_body_18 my-4">
-                        We conduct detailed site surveys, shading analysis, structural checks, and electrical assessments to evaluate feasibility. Based on these inputs, we define project scale, system configurations, and key technical parameters.
+                        Our team evaluates the site, available area, structural considerations, energy consumption, and project feasibility. This assessment helps identify opportunities, limitations, and key project requirements. The findings form the basis for a practical solar solution.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -314,10 +364,10 @@
                 <div class="cs_step_content_pane" id="epcStep3">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 28px; font-weight: 600; color: var(--black);">
                         <span class="d-none d-md-inline-block" style="width: 24px; height: 2px; background: var(--orange); margin-right: 15px;"></span>
-                        03. Design & Engineer
+                        03. Engineer
                     </h3>
                     <p class="cs_body_18 my-4">
-                        Our engineering team develops complete project drawings, covering module layouts, electrical single-line diagrams, inverter sizing, and structural details tailored to your site.
+                        We develop the technical design and system architecture around the project's specific requirements. System capacity, equipment selection, electrical configuration, and site conditions are considered during design. The objective is to create a solution designed for reliable project performance.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -327,10 +377,10 @@
                 <div class="cs_step_content_pane" id="epcStep4">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 28px; font-weight: 600; color: var(--black);">
                         <span class="d-none d-md-inline-block" style="width: 24px; height: 2px; background: var(--orange); margin-right: 15px;"></span>
-                        04. Procure & Integrate
+                        04. Procure
                     </h3>
                     <p class="cs_body_18 my-4">
-                        We source high-quality components, including PV modules, inverters, structures, and balance of system items, ensuring full compatibility, quality control, and schedule adherence.
+                        Required modules, inverters, structures, electrical equipment, and other system components are sourced and coordinated for execution. Procurement is aligned with the approved design and project requirements. This helps maintain consistency between selected technology and on-site execution.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -340,10 +390,10 @@
                 <div class="cs_step_content_pane" id="epcStep5">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 28px; font-weight: 600; color: var(--black);">
                         <span class="d-none d-md-inline-block" style="width: 24px; height: 2px; background: var(--orange); margin-right: 15px;"></span>
-                        05. Execute & Install
+                        05. Execute
                     </h3>
                     <p class="cs_body_18 my-4">
-                        Our project team manages on-site civil, structural, and electrical installation adhering to quality standards, safety norms, and engineering specifications.
+                        Installation, electrical works, integration, safety checks, and site execution are managed through a coordinated project approach. Our team works according to the project's technical and safety requirements. The focus remains on quality execution with minimal disruption to operations.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -353,10 +403,10 @@
                 <div class="cs_step_content_pane" id="epcStep6">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 28px; font-weight: 600; color: var(--black);">
                         <span class="d-none d-md-inline-block" style="width: 24px; height: 2px; background: var(--orange); margin-right: 15px;"></span>
-                        06. Test & Commission
+                        06. Commission
                     </h3>
                     <p class="cs_body_18 my-4">
-                        We conduct pre-commissioning checks, performance testing, safety inspections, and grid integration before formally commissioning the system into operation.
+                        The completed system is tested, verified, and commissioned for operation. Key system components and electrical connections are checked before the system goes live. This ensures the completed installation is ready for reliable operation.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -366,10 +416,10 @@
                 <div class="cs_step_content_pane" id="epcStep7">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 28px; font-weight: 600; color: var(--black);">
                         <span class="d-none d-md-inline-block" style="width: 24px; height: 2px; background: var(--orange); margin-right: 15px;"></span>
-                        07. Support & Maintain
+                        07. Support
                     </h3>
                     <p class="cs_body_18 my-4">
-                        Post-commissioning, we provide operational support, monitoring setup, and maintenance guidance to help maintain long-term generation performance.
+                        Post-commissioning O&M and technical support help keep the system performing over its operating life. Routine monitoring and maintenance help identify potential issues and maintain system performance. Our support continues beyond installation to help protect your solar investment.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -693,7 +743,7 @@
     <!-- 10. FAQs - Light Beige Reusable Component (Figma Frame 75:1290) -->
     <section class="cs_faq_section mt-100">
         <div class="container">
-            <h2 class="cs_h2 animation-top text-center mb-5">Solar EPC - FAQs</h2>
+            <h2 class="cs_h2 animation-top text-center mb-5">FAQs</h2>
             <div class="accordion" id="accordionEpc">
                 <div class="row">
                     <div class="col-lg-6">
@@ -727,7 +777,7 @@
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionEpc">
                                 <div class="pt-2">
-                                    Project timelines depend on system size and complexity. Commercial rooftop systems typically take 4–8 weeks, while large industrial or utility projects range from 3 to 6 months.
+                                    The project schedule would depend upon the size of the project, the condition of the site, getting of approvals, system designs and specifications, availability of material and manpower, etc. The EPC team would provide an estimated schedule of activities upon the evaluation of the project.
                                 </div>
                             </div>
                         </div>
@@ -745,7 +795,7 @@
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionEpc">
                                 <div class="pt-2">
-                                    Buying panels only provides hardware. Turnkey EPC includes feasibility engineering, grid approvals, structural mounting, electrical wiring, testing, commissioning, and long-term yield guarantees.
+                                    Although purchasing a panel is just one aspect of a solar system, an EPC partner handles the entire system, design, integrating various component products, installation, performance, and testing. As a complete package.
                                 </div>
                             </div>
                         </div>
@@ -757,13 +807,13 @@
                                 data-bs-target="#collapseEpc3"
                                 aria-expanded="false"
                                 aria-controls="collapseEpc3">
-                                What is the cost of solar EPC per MW?
+                                What makes Contendre Solar different from other EPC companies?
                             </h5>
                             <div id="collapseEpc3"
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionEpc">
                                 <div class="pt-2">
-                                    Solar EPC cost per MW varies based on module technology, mounting structure types, grid distance, and site conditions. Contact our engineering sales team for a custom detailed financial and technical quote.
+                                    Contendre combines solar manufacturing capabilities with turnkey EPC execution. This gives the team a deeper understanding of modules, technology, system integration, and project requirements while providing end-to-end project support.
                                 </div>
                             </div>
                         </div>
@@ -775,13 +825,13 @@
                                 data-bs-target="#collapseEpc4"
                                 aria-expanded="false"
                                 aria-controls="collapseEpc4">
-                                Does Contendre Solar provide O&M after commissioning?
+                                What is the minimum project size Contendre Solar undertakes?
                             </h5>
                             <div id="collapseEpc4"
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionEpc">
                                 <div class="pt-2">
-                                    Yes. Our dedicated O&M teams provide continuous telemetry monitoring, preventative maintenance, panel cleaning, and technical support to maximize energy yields.
+                                   Project suitability depends on the project type, location, technical requirements, and commercial feasibility. Contact Contendre Solar with your project details to discuss the appropriate EPC solution.
                                 </div>
                             </div>
                         </div>
@@ -793,13 +843,13 @@
                                 data-bs-target="#collapseEpc5"
                                 aria-expanded="false"
                                 aria-controls="collapseEpc5">
-                                Which states/regions does Contendre Solar operate in?
+                                What's included in Contendre Solar turnkey EPC services?
                             </h5>
                             <div id="collapseEpc5"
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionEpc">
                                 <div class="pt-2">
-                                    We execute solar projects nationwide across Pan India, supporting commercial, industrial, and institutional installations in all major industrial hubs.
+                                    Turnkey EPC services can cover site assessment, feasibility, engineering and design, procurement, installation, electrical integration, testing, commissioning, and post-commissioning O&M support, depending on the project scope.
                                 </div>
                             </div>
                         </div>
@@ -811,13 +861,13 @@
                                 data-bs-target="#collapseEpc6"
                                 aria-expanded="false"
                                 aria-controls="collapseEpc6">
-                                What's included in Contendre Solar turnkey EPC services?
+                                What is the cost of solar EPC per MW?
                             </h5>
                             <div id="collapseEpc6"
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionEpc">
                                 <div class="pt-2">
-                                    Our turnkey services cover site survey, detailed engineering, top-tier module procurement, civil and structural installation, grid interconnection, net-metering assistance, and performance handover.
+                                    There is no single EPC cost per MW because pricing depends on module technology, system capacity, site conditions, mounting structure, equipment selection, project location, civil and electrical requirements, and other scope considerations. A project-specific assessment is required for an accurate quote.
                                 </div>
                             </div>
                         </div>
@@ -829,13 +879,31 @@
                                 data-bs-target="#collapseEpc7"
                                 aria-expanded="false"
                                 aria-controls="collapseEpc7">
-                                What is the minimum project size Contendre Solar undertakes?
+                                Does Contendre Solar provide O&M after commissioning?
                             </h5>
                             <div id="collapseEpc7"
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionEpc">
                                 <div class="pt-2">
-                                    Contendre Solar undertakes solar projects starting from 10 kW for commercial and institutional rooftops up to multi-megawatt utility-scale ground-mounted solar installations.
+                                    Yes. Contendre Solar provides operations & maintenance services designed to support the performance and longevity of solar systems after commissioning. The scope can vary according to project requirements.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="according_main mb-4">
+                            <h5 class="sub_head collapsed"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseEpc7"
+                                aria-expanded="false"
+                                aria-controls="collapseEpc7">
+                                Which states/regions does Contendre Solar operate in?
+                            </h5>
+                            <div id="collapseEpc7"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionEpc">
+                                <div class="pt-2">
+                                    Contendre Solar supports projects across India. Project feasibility, installation scope, logistics, and execution timelines are evaluated based on the specific location and project requirements.
                                 </div>
                             </div>
                         </div>
@@ -846,7 +914,7 @@
     </section>
 
     <!-- 11. Sustainability CTA Banner (Figma Frame 75:1582) -->
-    <section class="cs_sustainability_banner position-relative text-center text-white py-5" style="background: linear-gradient(180deg, rgba(17, 17, 17, 0.7) 0%, rgba(17, 17, 17, 0.75) 100%), url('{{ asset('public/front/images/epc/sustainability_cta_bg.webp') }}') center/cover no-repeat; padding: 120px 0 !important;">
+    <section class="cs_sustainability_banner position-relative text-center text-white py-5" style="background: linear-gradient(180deg, rgba(17, 17, 17, 0.7) 0%, rgba(17, 17, 17, 0.75) 100%), url('{{ asset('public/front/images/epc/Build-Your-Solar-Project.webp') }}') center/cover no-repeat; padding: 120px 0 !important;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">

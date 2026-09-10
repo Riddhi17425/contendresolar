@@ -43,7 +43,7 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="head2 cs_intro_head_title animation-top text-center">Become a Trusted <span>Solar Dealer and <br/> Distributor</span> with <span>Contendre Solar.</span></h2>
                     <p class="animation-bottom text-center mx-auto mt-4 cs_body_18">
-                        Building a solar business takes more than having the right products on your shelf. You need a manufacturer who understands what it takes to enter a market, build customer confidence, create demand, and support the business after the sale. That is where Contendre Solar comes in. We bring together <b>high-efficiency solar technology, product expertise, sales enablement, marketing support, and technical assistance</b> to help dealers and distributors build a stronger presence in India's growing renewable energy market. Whether you want to <b>become a solar dealer</b>, expand your existing distribution business, or explore <b>solar panel dealership opportunities in India</b>, Contendre Solar gives you the product, knowledge, and support to take that opportunity further.
+                        Building a solar business takes more than having the right products on your shelf. You need a manufacturer who understands what it takes to enter a market, build customer confidence, create demand, and support the business after the sale.That is where Contendre Solar comes in. We bring together <b>high-efficiency solar technology, product expertise, sales enablement, marketing support, and technical assistance</b> to help dealers and distributors build a stronger presence in India's growing renewable energy market.Whether you want to <b>become a solar dealer,</b> expand your existing distribution business, or explore <b>solar panel dealership opportunities in India,</b> Contendre Solar gives you the product, knowledge, and support to take that opportunity further.
                     </p>
                 </div>
             </div>
@@ -211,31 +211,34 @@
 
             <div class="row g-4 cs_who_row">
                 <div class="col-lg-3 col-md-6">
-                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/1_1_616.webp') }}');">
+                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/Electrical-Solar-Businesses.webp') }}');">
                         <div class="cs_who_content">
                             <h3 class="cs_who_title">Electrical & Solar Businesses</h3>
+                            <p class="cs_who_desc">Add high-performance solar products to your existing portfolio and serve customers looking for reliable renewable energy solutions.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/1_1_620.webp') }}');">
+                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/EPC-Companies-Installers.webp') }}');">
                         <div class="cs_who_content">
                             <h3 class="cs_who_title">EPC Companies & Installers</h3>
+                            <p class="cs_who_desc">Strengthen your project offering with a dependable module manufacturing partner and access to technical and product support.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="cs_who_card cs_who_card_solid">
-                        <h3 class="cs_who_title">Existing Dealers & Distributors</h3>
-                        <p class="cs_who_desc mt-2">
-                            Expand into a rapidly growing category and add solar to your existing electrical, industrial, energy, or construction product portfolio.
-                        </p>
+                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/Existing-Dealers-Distributors.webp') }}');">
+                        <div class="cs_who_content">
+                            <h3 class="cs_who_title">Existing Dealers & Distributors</h3>
+                            <p class="cs_who_desc">Expand into a rapidly growing category and add solar to your existing electrical, industrial, energy, or construction product portfolio.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/1_1_628.webp') }}');">
+                    <div class="cs_who_card" style="background-image: url('{{ asset('public/front/images/channel_sales/Entrepreneurs-Business-Owners.webp') }}');">
                         <div class="cs_who_content">
                             <h3 class="cs_who_title">Entrepreneurs & Business Owners</h3>
+                            <p class="cs_who_desc">If you have a strong local network and want to build a solar-focused business, explore the opportunity to <b>become a solar dealer</b> with Contendre Solar.</p>
                         </div>
                     </div>
                 </div>
@@ -423,10 +426,10 @@
                 <div class="cs_step_content_pane" id="csStep2">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 24px; font-weight: 600;">
                         <span class="d-none d-md-inline-block" style="width: 20px; height: 2px; background: var(--cs-orange); margin-right: 15px;"></span>
-                        Territory & Model Discussion
+                        Explore the Opportunity
                     </h3>
                     <p class="cs_body_18 my-4">
-                        Our regional partnership manager connects directly with your leadership team to discuss regional demand, available territories, required inventory capacities, and revenue milestones.
+                        Discuss your market, customer base, business objectives, and the type of partnership you want to build. Together, we can understand the opportunity available in your market and identify where Contendre can support your growth.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -437,10 +440,10 @@
                 <div class="cs_step_content_pane" id="csStep3">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 24px; font-weight: 600;">
                         <span class="d-none d-md-inline-block" style="width: 20px; height: 2px; background: var(--cs-orange); margin-right: 15px;"></span>
-                        Agreement & Setup
+                        Choose the Right Model
                     </h3>
                     <p class="cs_body_18 my-4">
-                        Once both parties align on the partnership scope, we finalize the partnership agreement. Our team supports you in the initial setup, ensuring a smooth transition into our network.
+                        Depending on your business capabilities and market reach, explore the relevant dealership or distribution opportunity. The right model can help you build your customer base, expand your product portfolio, and develop your position in the growing solar market.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -451,10 +454,10 @@
                 <div class="cs_step_content_pane" id="csStep4">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 24px; font-weight: 600;">
                         <span class="d-none d-md-inline-block" style="width: 20px; height: 2px; background: var(--cs-orange); margin-right: 15px;"></span>
-                        Training & Enablement
+                        Complete Partner Onboarding
                     </h3>
                     <p class="cs_body_18 my-4">
-                        Contendre Solar provides necessary training covering product knowledge, installation best practices (if applicable), and sales enablement to prepare your team for market success.
+                        Once the partnership is finalized, complete the applicable onboarding and product and sales enablement process. Get familiar with Contendre's products, technologies, sales approach, and the resources available to support your business.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -465,10 +468,10 @@
                 <div class="cs_step_content_pane" id="csStep5">
                     <h3 class="cs_h3 d-md-flex align-items-center" style="font-size: 24px; font-weight: 600;">
                         <span class="d-none d-md-inline-block" style="width: 20px; height: 2px; background: var(--cs-orange); margin-right: 15px;"></span>
-                        Launch & Market Support
+                        Take Solar to Your Market
                     </h3>
                     <p class="cs_body_18 my-4">
-                        We activate the partnership with an initial inventory dispatch and provide ongoing marketing, technical, and sales support to help you capture market share efficiently.
+                        With the right products and partner support behind you, start developing customers, projects, and your local solar network. Turn your market knowledge and business relationships into a growing solar opportunity with Contendre Solar.
                     </p>
                     <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
                         Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
@@ -483,7 +486,7 @@
         <div class="container">
             <div class="row align-items-center gx-lg-5">
                 <div class="col-lg-6 text-center order-1 order-lg-0">
-                    <img src="{{ asset('public/front/images/channel_sales/cs_subsidy_combined.webp') }}" alt="Government Subsidy Benefits for Solar Dealers" class="img-fluid">
+                    <img src="{{ asset('public/front/images/channel_sales/Government-Subsidy-Benefits-for-Solar-Dealers.webp') }}" alt="Government Subsidy Benefits for Solar Dealers" class="img-fluid">
                 </div>
                 <div class="col-lg-6 order-2 order-lg-1">
                     <h2 class="cs_h2 animation-top">Government Subsidy Benefits for Solar Dealers</h2>
@@ -527,7 +530,7 @@
                     </a>
                 </div>
                 <div class="col-lg-5 mt-4 mt-lg-0 text-center">
-                    <img src="{{ asset('public/front/images/channel_sales/cs_network_combined.webp') }}" alt="Join Contendre Solar's Trusted Network" class="img-fluid">
+                    <img src="{{ asset('public/front/images/channel_sales/Join-Contendre-Solars-Trusted-Network.webp') }}" alt="Join Contendre Solar's Trusted Network" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -556,7 +559,7 @@
     <!-- 12. FAQs (Figma Frame 75:580) -->
     <section class="cs_faq_section mt-100">
         <div class="container">
-            <h2 class="cs_h2 animation-top text-center mb-5">Channel Sales - FAQs</h2>
+            <h2 class="cs_h2 animation-top text-center mb-5">FAQs</h2>
             <div class="accordion" id="accordionExample">
                 <div class="row">
                     <div class="col-lg-6">
@@ -590,7 +593,7 @@
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="pt-2">
-                                    Electrical businesses, solar installers, EPC companies, hardware and energy distributors, and new entrepreneurs with local market presence are eligible to apply.
+                                    Electrical businesses, EPC companies, installers, existing dealers and distributors, entrepreneurs, and businesses with relevant market networks can explore the opportunity. Suitability depends on the business profile, market potential, and applicable requirements.
                                 </div>
                             </div>
                         </div>
@@ -608,7 +611,7 @@
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="pt-2">
-                                    Submit our online Channel Partner Application form. Our team will review your business credentials, connect for a territory consultation, and complete the onboarding process.
+                                   To <b>become a solar dealer,</b> connect with Contendre Solar and share your business details, market, and growth objectives. The partnership team can discuss the relevant dealership opportunity, requirements, and onboarding process.
                                 </div>
                             </div>
                         </div>
@@ -626,7 +629,7 @@
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="pt-2">
-                                    No. While prior business or electrical experience helps, Contendre Solar provides end-to-end technical training, product knowledge, and sales enablement kits.
+                                    Previous solar experience can be an advantage, but businesses from electrical, EPC, installation, industrial, and related sectors can also explore channel opportunities, depending on the applicable partnership model and requirements.
                                 </div>
                             </div>
                         </div>
@@ -644,7 +647,7 @@
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="pt-2">
-                                    Dealers and distributors can sell Contendre Solar’s full range of high-efficiency solar modules, solar panels, and associated energy solution products.
+                                    Contendre Solar channel partners can offer its solar module portfolio incorporating advanced solar technologies. The applicable products and commercial arrangements can vary according to the partner model, market, and project requirements.
                                 </div>
                             </div>
                         </div>
@@ -662,7 +665,7 @@
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="pt-2">
-                                    Contendre Solar provides complete product training, marketing and digital resources, sales assistance, technical support, and dedicated regional management.
+                                    Support can include product and sales training, sales and technical assistance, marketing resources, and digital creatives. Eligible distributor partners may also receive regional marketing support and network-development opportunities under the applicable program.
                                 </div>
                             </div>
                         </div>
@@ -680,7 +683,7 @@
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="pt-2">
-                                    Standard business registration documents, GST registration, PAN card, address proof of business premises, and relevant business track record details.
+                                    Documentation can vary according to the applicant's business profile and applicable partnership model. The Contendre Solar partnership team can provide the specific requirements during the initial evaluation and onboarding process.
                                 </div>
                             </div>
                         </div>
@@ -698,7 +701,7 @@
                                 class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="pt-2">
-                                    A solar dealer primarily sells directly to end customers, while a solar distributor manages regional distribution, supplies dealers/sub-dealers, and builds a wider regional sales network.
+                                    A <b>solar dealer</b> generally focuses on selling solar products within its market. A solar distributor operates at a broader regional level and, under the applicable Contendre program, can develop a sub-dealer network and participate in additional network-based earning opportunities.
                                 </div>
                             </div>
                         </div>
