@@ -67,6 +67,8 @@ Route::get('/project-ally', [DashboardController::class, 'projectAlly'])->name('
 Route::get('/channel-sales', [DashboardController::class, 'channelSales'])->name('channel.sales');
 Route::get('/epc', [DashboardController::class, 'epc'])->name('epc');
 Route::get('/solar-developer', [DashboardController::class, 'solarDeveloper'])->name('solar.developer');
+Route::get('/commercial-industrial-solutions', [DashboardController::class, 'commercialIndustrialSolutions'])->name('commercial.industrial.solutions');
+Route::get('/commercial-industrial-solution', [DashboardController::class, 'commercialIndustrialSolutions'])->name('commercial.industrial.solution');
 Route::get('/locater-ally', [DashboardController::class, 'allyLocater'])->name('locater.ally');
 Route::get('/news-list', [DashboardController::class, 'news'])->name('news');
 Route::get('/solar-panel-manufacturer', [DashboardController::class, 'solarmanufacture'])->name('solar.panel.manufacturer');

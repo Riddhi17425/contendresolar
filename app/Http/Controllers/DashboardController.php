@@ -1069,6 +1069,20 @@ class DashboardController extends Controller
 
     }
 
+
+    public function commercialIndustrialSolutions()
+    {
+
+        $title = "Commercial & Industrial Solar Solutions | Contendre Solar";
+
+        $description = "Boost business efficiency with commercial and industrial solar solutions from Contendre Solar. Reduce energy costs with reliable solar power.";
+
+        $faq = Faq::where('faq_url', 'commercial-industrial-solutions')->first();
+
+        return view('front.commercial-industrial-solution', compact('title', 'description', 'faq'));
+
+    }
+
     public function allyLocater()
     {
 
