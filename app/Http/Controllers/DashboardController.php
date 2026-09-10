@@ -50,6 +50,63 @@ class DashboardController extends Controller
 {
 
     /**
+     * Google Apps Script Web App URL jahan baaki saari inquiries (contact, career,
+     * service, partner, consultancy, distributor) save hoti hain.
+     */
+    private $googleSheetUrl = 'https://script.google.com/macros/s/AKfycbymBGWV7QNbMNb-Yb5YQHeFiZM1w5t6fXsddHCyPohUQ7PnqpraFFQLMRV7uM17WMB2/exec';
+
+    /**
+     * Google Apps Script Web App URL sirf WhatsApp inquiry ke liye — ye alag
+     * Google Sheet (1tuJowcjMlQ_oN6ZdsjJUtPyBXjzXjHv52tWp2f8QqsU) me data bhejta hai.
+     */
+    private $whatsappSheetUrl = 'https://script.google.com/macros/s/AKfycbx3G7iCvpnuFnA3SszKjF51XgKT5_HPr-ajPVkdNQNxhI8U8w7R997eQJR6Z9mCni8c/exec';
+
+    /**
+     * Apps Script me jo API key set hai, wahi yahan honi chahiye.
+     */
+    private $googleSheetApiKey = 'ctj84aP2fKxN2sW7vXzEyQh1vCmL6uGn5';
+
+    /**
+     * Common helper: kisi bhi form ka data Google Sheet me bhejne ke liye.
+     * $sheetsData me 'inquiry_from' key hamesha honi chahiye taaki pata chale
+     * ki inquiry kaunse form se aayi hai.
+     *
+     * @param array $sheetsData
+     * @return void
+     */
+    private function sendToGoogleSheet(array $sheetsData, $url = null)
+    {
+        try {
+
+            $targetUrl = $url ?? $this->googleSheetUrl;
+
+            $sheetsData['apiKey'] = $this->googleSheetApiKey;
+
+            $response = Http::withHeaders(['Content-Type' => 'application/json'])
+                ->post($targetUrl, $sheetsData);
+
+            if (! $response->successful()) {
+
+                Log::error('Google Sheets request failed', [
+                    'status'    => $response->status(),
+                    'body'      => $response->body(),
+                    'data_sent' => $sheetsData,
+                ]);
+
+            }
+
+        } catch (\Exception $e) {
+
+            Log::error('Google Sheets Exception: ' . $e->getMessage(), [
+                'trace'     => $e->getTraceAsString(),
+                'data_sent' => $sheetsData,
+            ]);
+
+        }
+
+    }
+
+    /**
 
      * Display a listing of the resource.
 
@@ -184,6 +241,26 @@ class DashboardController extends Controller
 
         ];
 
+        $this->sendToGoogleSheet([
+
+            'inquiry_from' => 'Contact Inquiry',
+
+            'fullname'     => $validated['fullname'],
+
+            'phone'        => $validated['phone'],
+
+            'email'        => $validated['email'],
+
+            'organization' => $validated['organization'],
+
+            'requirement'  => $validated['requirement'],
+
+            'city'         => $validated['city'],
+
+            'message'      => $validated['message'] ?? '',
+
+        ]);
+
         try {
 
             Mail::to($validated['email'])->send(new SendContactMailToUser($validated['fullname']));
@@ -218,25 +295,12 @@ class DashboardController extends Controller
 
         $timestamp = Carbon::now()->format('Y-m-d H:i:s');
 
-        // Sheet expects: form_type, contact, message, date
-        $sheetsData = [
+        $this->sendToGoogleSheet([
             'form_type' => 'whatsapp inquiry',
             'contact'   => $request->number,
             'message'   => $request->message,
             'date'      => $timestamp,
-        ];
-
-        try {
-            Http::withHeaders(['Content-Type' => 'application/json'])
-                ->post('https://script.google.com/macros/s/AKfycbx3G7iCvpnuFnA3SszKjF51XgKT5_HPr-ajPVkdNQNxhI8U8w7R997eQJR6Z9mCni8c/exec', $sheetsData);
-
-        } catch (\Exception $e) {
-            \Log::error('Google Sheets Exception (WhatsApp Inquiry):', [
-                'message'   => $e->getMessage(),
-                'trace'     => $e->getTraceAsString(),
-                'data_sent' => $sheetsData,
-            ]);
-        }
+        ], $this->whatsappSheetUrl);
 
         $number      = '916358820089'; // your business WhatsApp number
         $message     = 'Inquiry from the website.';
@@ -455,6 +519,24 @@ class DashboardController extends Controller
 
         ];
 
+        $this->sendToGoogleSheet([
+
+            'inquiry_from' => 'Consultancy Service Inquiry',
+
+            'fullname'     => $validated['name'],
+
+            'phone'        => $validated['phone'],
+
+            'email'        => $validated['email'],
+
+            'city'         => $validated['city'] ?? '',
+
+            'query'        => $validated['qry'],
+
+            'message'      => 'Kilowatt: ' . $validated['kilowatt'],
+
+        ]);
+
         try {
 
             Mail::to($validated['email'])->send(new SendConsultancyMailToUser($validated['name']));
@@ -547,6 +629,24 @@ class DashboardController extends Controller
 
         ];
 
+        $this->sendToGoogleSheet([
+
+            'inquiry_from'         => 'Service Inquiry',
+
+            'fullname'             => $validated['name'],
+
+            'phone'                => $validated['phone'],
+
+            'email'                => $validated['email'],
+
+            'product_name'         => $validated['product_name'],
+
+            'modal_number'         => $validated['modal_number'],
+
+            'city_of_installation' => $validated['city_installation'] ?? '',
+
+        ]);
+
         try {
 
             Mail::to($validated['email'])->send(new SendServiceMailToUser($validated['name']));
@@ -623,6 +723,26 @@ class DashboardController extends Controller
             'capacity'        => $validated['capacity'] ?? '',
 
         ];
+
+        $this->sendToGoogleSheet([
+
+            'inquiry_from'        => 'Partner/Ally Inquiry',
+
+            'fullname'            => $validated['name'],
+
+            'phone'               => $validated['phone'],
+
+            'email'               => $validated['email'],
+
+            'inquiry_for'         => $validated['inquiryfor'],
+
+            'current_business'    => $validated['currentbusiness'],
+
+            'years_of_experience' => $validated['experience'],
+
+            'capacity'            => $validated['capacity'] ?? '',
+
+        ]);
 
         try {
 
@@ -715,6 +835,20 @@ class DashboardController extends Controller
             'resume'   => $post->resume,
 
         ];
+
+        $this->sendToGoogleSheet([
+
+            'inquiry_from' => 'Career Inquiry',
+
+            'fullname'     => $validated['name'],
+
+            'phone'        => $validated['number'],
+
+            'email'        => $validated['email'],
+
+            'message'      => 'Position: ' . $validated['position'] . ' | ' . ($validated['message'] ?? ''),
+
+        ]);
 
         try {
 
@@ -1158,6 +1292,25 @@ class DashboardController extends Controller
             'applicant_residence_address'             => $validated['applicant_residence_address'],
 
         ];
+
+        $this->sendToGoogleSheet([
+
+            'inquiry_from' => 'Distributor Inquiry',
+
+            'company_name' => $validated['company_name'],
+
+            'fullname'     => $validated['applicant_name'],
+
+            'phone'        => $validated['applicant_number'],
+
+            'email'        => $validated['company_email'],
+
+            'organization' => $validated['company_business'],
+
+            'message'      => 'Designation: ' . $validated['designation'] . ', Area: ' . $validated['area'] .
+                               ', PAN: ' . $validated['pannumber'] . ', GST: ' . $validated['gstnumber'],
+
+        ]);
 
         try {
 

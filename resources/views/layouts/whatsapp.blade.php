@@ -199,9 +199,10 @@
 
         </div>
 
-        <form id="whatsapForm" method="POST" action="{{ route('whatsaapinquiry') }}">
+        <form id="whatsapForm" method="POST" action="{{ route('whatsaapinquiry') }}" target="_blank">
          @csrf
 
+         
             <div class="wa-body whatsappform">
 
                 <input type="tel" id="wa-phone" name="phone" required autocomplete="off">

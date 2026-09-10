@@ -954,7 +954,13 @@ header {
     .solar-table {
         font-size: 15px;
     }
-    
+    /* auhtor bio add */
+     .author-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
     .envi_frien .envi_frien_content
     {
         width:100%;
