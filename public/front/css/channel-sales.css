@@ -76,6 +76,11 @@
     color: var(--wb-black);
 } */
 
+.cta-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+}
 .channel_sales_wrapper .precision_icon p {
     font-size: 18px;
     font-weight: 500;
@@ -170,7 +175,7 @@
 }
 
 .cs_hero_section.dev_page_bg {
-    background: linear-gradient(180deg, rgba(98, 155, 192, 0.92) 0%, rgba(98, 155, 192, 0.75) 50%, rgba(17, 17, 17, 0.85) 100%), url('../images/epc/figma_solar_developer_hero_bg.webp') center top / cover no-repeat !important;
+    background: url('../images/epc/Commercial-hero-section.webp') center top / cover no-repeat !important;
 }
 
 .cs_hero_subtitle {
@@ -361,6 +366,10 @@
     max-width: 1440px;
 }
 
+.cs_intro_card--top-shadow {
+    box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.12), 2px 6px 10px rgba(0, 0, 0, 0.08);
+}
+
 .cs_intro_head {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 48px;
@@ -515,7 +524,7 @@
 
 .cs_who_card:not(.cs_who_card_solid):hover .cs_who_desc,
 .cs_who_card:not(.cs_who_card_solid):focus-within .cs_who_desc {
-    max-height: 120px;
+    max-height: none;
     margin-top: 12px;
     opacity: 1;
     transform: translateY(0);
@@ -523,6 +532,8 @@
 
 .cs_who_card:not(.cs_who_card_solid):hover,
 .cs_who_card:not(.cs_who_card_solid):focus-within {
+    height: auto;
+    min-height: 350px;
     background-color: #F8F2EA;
     padding: 44px 30px;
     justify-content: flex-start;
@@ -624,7 +635,7 @@
 .epc_sector_card:hover {
     /* border-color: #F16F24; */
     transform: translateY(-6px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08); */
 }
 
 .epc_sector_card .epc_sector_img {

@@ -103,7 +103,7 @@
                 <div class="px-2">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1013.webp') }}" alt="Solar Modules">
+                            <img src="{{ asset('public/front/images/channel_sales/channel-sales-icon-1.webp') }}" alt="Solar Modules">
                         </div>
                         <div>
                             <h3 class="cs_h3">High-Performance Solar Modules</h3>
@@ -115,7 +115,7 @@
                 <div class="px-2">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1048.webp') }}" alt="Solar Tech">
+                            <img src="{{ asset('public/front/images/channel_sales/channel-sales-icon-2.webp') }}" alt="Solar Tech">
                         </div>
                         <div>
                             <h3 class="cs_h3">Advanced Solar Technologies</h3>
@@ -127,7 +127,7 @@
                 <div class="px-2">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Icon_1_1075.webp') }}" alt="Product Training">
+                            <img src="{{ asset('public/front/images/channel_sales/channel-sales-icon-3.webp') }}" alt="Product Training">
                         </div>
                         <div>
                             <h3 class="cs_h3">Product & Sales Training</h3>
@@ -139,7 +139,7 @@
                 <div class="px-2">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1013.webp') }}" alt="Technical Assistance">
+                            <img src="{{ asset('public/front/images/channel_sales/channel-sales-icon-4.webp') }}" alt="Technical Assistance">
                         </div>
                         <div>
                             <h3 class="cs_h3">Sales & Technical Assistance</h3>
@@ -151,7 +151,7 @@
                 <div class="px-2">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1048.webp') }}" alt="Marketing Support">
+                            <img src="{{ asset('public/front/images/channel_sales/channel-sales-icon-5.webp') }}" alt="Marketing Support">
                         </div>
                         <div>
                             <h3 class="cs_h3">Marketing & Digital Support</h3>
@@ -163,7 +163,7 @@
                 <div class="px-2">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Icon_1_1075.webp') }}" alt="Reliable Supply">
+                            <img src="{{ asset('public/front/images/channel_sales/channel-sales-icon-6.webp') }}" alt="Reliable Supply">
                         </div>
                         <div>
                             <h3 class="cs_h3">Reliable Product Supply</h3>
@@ -175,7 +175,7 @@
                 <div class="px-2">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1013.webp') }}" alt="Market Development">
+                            <img src="{{ asset('public/front/images/channel_sales/channel-sales-icon-7.webp') }}" alt="Market Development">
                         </div>
                         <div>
                             <h3 class="cs_h3">Regional Market Development</h3>
@@ -187,7 +187,7 @@
                 <div class="px-2">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1048.webp') }}" alt="Network Building">
+                            <img src="{{ asset('public/front/images/channel_sales/channel-sales-icon-8.webp') }}" alt="Network Building">
                         </div>
                         <div>
                             <h3 class="cs_h3">Network-Building Opportunities</h3>
@@ -312,7 +312,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Group_1_677.webp') }}" alt="Portfolio">
+                            <img src="{{ asset('public/front/images/channel_sales/Product-Portfolio-icon.webp') }}" alt="Portfolio">
                         </div>
                         <div>
                             <h3 class="cs_h3">A Product Portfolio Built for the Market</h3>
@@ -324,7 +324,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_676.webp') }}" alt="Training">
+                            <img src="{{ asset('public/front/images/channel_sales/Product-Sales-icon.webp') }}" alt="Training">
                         </div>
                         <div>
                             <h3 class="cs_h3">Product & Sales Training</h3>
@@ -336,7 +336,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Icon_1_1075.webp') }}" alt="Marketing Support">
+                            <img src="{{ asset('public/front/images/channel_sales/Marketing-Support-icon.webp') }}" alt="Marketing Support">
                         </div>
                         <div>
                             <h3 class="cs_h3">Marketing Support</h3>
@@ -348,7 +348,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1048.webp') }}" alt="Digital Resources">
+                            <img src="{{ asset('public/front/images/channel_sales/Digital-Marketing-icon.webp') }}" alt="Digital Resources">
                         </div>
                         <div>
                             <h3 class="cs_h3">Digital Marketing Resources</h3>
@@ -360,7 +360,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Group_1_1076.webp') }}" alt="Tech Support">
+                            <img src="{{ asset('public/front/images/channel_sales/Sales-Technical-icon.webp') }}" alt="Tech Support">
                         </div>
                         <div>
                             <h3 class="cs_h3">Sales & Technical Support</h3>
@@ -372,7 +372,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1013.webp') }}" alt="Build Beyond">
+                            <img src="{{ asset('public/front/images/channel_sales/Build-Beyond-icon.webp') }}" alt="Build Beyond">
                         </div>
                         <div>
                             <h3 class="cs_h3">Build Beyond Your Own Sales</h3>
@@ -542,7 +542,7 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto text-center">
                     <h2 class="head_white animation-top">Solar Panel Dealership Opportunities in India</h2>
-                    <p class="lead text-white fw-semibold mb-4 mx-auto">
+                    <p class="text-white mb-4 mx-auto">
                         The growth of rooftop, commercial, industrial, and distributed solar is creating new <b>solar panel dealership opportunities in India.</b>
                     </p>
                     <p class="text-white mb-4 mx-auto">

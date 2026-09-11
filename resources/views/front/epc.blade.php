@@ -445,7 +445,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100 p-4 rounded-3" style="background: #F8F2EA; border: none;">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1013.webp') }}" alt="Manufacturing Meets EPC">
+                            <img src="{{ asset('public/front/images/channel_sales/Manufacturing-Meets-EPC.webp') }}" alt="Manufacturing Meets EPC">
                         </div>
                         <div>
                             <h3 class="cs_h3 mb-3" style="font-size: 22px; font-weight: 600;">Manufacturing Meets EPC</h3>
@@ -459,7 +459,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100 p-4 rounded-3" style="background: #F8F2EA; border: none;">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1048.webp') }}" alt="Technology-Driven Solutions">
+                            <img src="{{ asset('public/front/images/channel_sales/Technology-Driven-Solutions.webp') }}" alt="Technology-Driven Solutions">
                         </div>
                         <div>
                             <h3 class="cs_h3 mb-3" style="font-size: 22px; font-weight: 600;">Technology-Driven Solutions</h3>
@@ -473,7 +473,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100 p-4 rounded-3" style="background: #F8F2EA; border: none;">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Icon_1_1075.webp') }}" alt="End-to-End Execution">
+                            <img src="{{ asset('public/front/images/channel_sales/End-to-End-Execution.webp') }}" alt="End-to-End Execution">
                         </div>
                         <div>
                             <h3 class="cs_h3 mb-3" style="font-size: 22px; font-weight: 600;">End-to-End Execution</h3>
@@ -487,7 +487,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100 p-4 rounded-3" style="background: #F8F2EA; border: none;">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Group_1_1060.webp') }}" alt="Quality & Safety Focus">
+                            <img src="{{ asset('public/front/images/channel_sales/Quality-Safety.webp') }}" alt="Quality & Safety Focus">
                         </div>
                         <div>
                             <h3 class="cs_h3 mb-3" style="font-size: 22px; font-weight: 600;">Quality & Safety Focus</h3>
@@ -501,7 +501,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100 p-4 rounded-3" style="background: #F8F2EA; border: none;">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Group_1_1076.webp') }}" alt="Built Around Your Project">
+                            <img src="{{ asset('public/front/images/channel_sales/Built-Around-Your-Project.webp') }}" alt="Built Around Your Project">
                         </div>
                         <div>
                             <h3 class="cs_h3 mb-3" style="font-size: 22px; font-weight: 600;">Built Around Your Project</h3>
@@ -515,7 +515,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="cs_why_card_item h-100 p-4 rounded-3" style="background: #F8F2EA; border: none;">
                         <div class="cs_card_icon_wrap">
-                            <img src="{{ asset('public/front/images/channel_sales/Capa_1_1_1013.webp') }}" alt="Support Beyond Commissioning">
+                            <img src="{{ asset('public/front/images/channel_sales/Support-Beyond-Commissioning.webp') }}" alt="Support Beyond Commissioning">
                         </div>
                         <div>
                             <h3 class="cs_h3 mb-3" style="font-size: 22px; font-weight: 600;">Support Beyond Commissioning</h3>
@@ -926,7 +926,7 @@
                         Engineering. Execution. Performance.
                     </p>
                     <a class="coman_btn animation-bottom mt-3" data-bs-toggle="modal" data-bs-target="#applymodal">
-                        Schedule EPC Consultation <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+                        Request an EPC Quote <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
                     </a>
                 </div>
             </div>
