@@ -1052,6 +1052,16 @@ class DashboardController extends Controller
         return view('front.epc', compact('title', 'description', 'faq'));
 
     }
+    public function whitelabel()
+    {
+        $title = "Solar EPC Company in India | Turnkey Solutions | Contendre Solar";
+        $description = "Contendre Solar delivers end-to-end EPC design, procurement, installation, testing, and O&M for residential, commercial, industrial, and utility-scale projects";
+
+        $faq = Faq::where('faq_url', 'white-labeling-oem-solar-manufacturing')->first();
+
+        return view('front.white-labeling-oem-solar-manufacturing', compact('title', 'description', 'faq'));
+
+    }
 
     public function solarDeveloper()
     {

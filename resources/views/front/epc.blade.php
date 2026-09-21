@@ -16,7 +16,7 @@
                         Execution is everything. A successful solar system comes with outstanding execution. Contendre Solar, a trustworthy Solar EPC partner, offers you integrated solutions that include planning, design and engineering, procurement, construction, commissioning, and aftercare services for solar energy projects of all sizes.
                     </p>
                     <p class="cs_hero_para animation-bottom">
-                        Whether installing a solar energy solution on a commercial or residential roof, on agricultural land, or on an industrial roof, all our turnkey operations are motivated by one promise: to develop a clean and green source that will generate energy for many years.
+                        Whether installing a solar energy solution on a commercial or residential roof, on agricultural land, or on an industrial roof, all our turnkey operations are motivated by one promise... to develop a clean and green source that will generate energy for many years.
                     </p>
                     
                     <div class="mt-4">
@@ -168,7 +168,7 @@
             <div class="cs_section_header animation-top text-center mb-5">
                 <h2 class="head2">Solar EPC Solutions by Project Type</h2>
                 <p class="cs_desc">
-                    Different projects from different EPC solutions provider has different energy profiles, site conditions, and performance objectives. Our <b>epc solar power</b> solutions are planned accordingly.
+                    Different projects from different EPC solutions provider has different energy profiles, site conditions, and performance objectives. Our <b>epc solar power solutions</b> are planned accordingly.
                 </p>
             </div>
 

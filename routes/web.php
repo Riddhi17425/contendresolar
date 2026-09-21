@@ -66,6 +66,7 @@ Route::get('/product-ally', [DashboardController::class, 'productAlly'])->name('
 Route::get('/project-ally', [DashboardController::class, 'projectAlly'])->name('project.ally');
 Route::get('/channel-sales', [DashboardController::class, 'channelSales'])->name('channel.sales');
 Route::get('/epc', [DashboardController::class, 'epc'])->name('epc');
+Route::get('/white-labeling-oem-solar-manufacturing', [DashboardController::class, 'whitelabel'])->name('white.labeling.oem.solar.manufacturing');
 Route::get('/solar-developer', [DashboardController::class, 'solarDeveloper'])->name('solar.developer');
 Route::get('/commercial-industrial-solutions', [DashboardController::class, 'commercialIndustrialSolutions'])->name('commercial.industrial.solutions');
 Route::get('/commercial-industrial-solution', [DashboardController::class, 'commercialIndustrialSolutions'])->name('commercial.industrial.solution');
