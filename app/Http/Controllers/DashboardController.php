@@ -1029,9 +1029,8 @@ class DashboardController extends Controller
     public function channelSales()
     {
 
-        $title = "Solar Dealership & Distributor Opportunities in India | Contendre Solar";
-
-        $description = "Build your solar business and grow with Contendre Solar. Discover solar dealership and distributor opportunities across India.";
+        $title = "Become a Solar Dealer & Distributor in India | Contendre Solar";
+        $description = "Partner with Contendre Solar as a dealer or distributor. Get product training, marketing support, and technical backing to grow your solar business in India.";
 
         $products = ProductCategory::whereNull('deleted_at')->get();
 
@@ -1045,42 +1044,42 @@ class DashboardController extends Controller
 
     public function epc()
     {
-
-        $title = "Leading Solar EPC Company in India | Turnkey Solar Solutions | Contendre Solar";
-
-        $description = "Contendre Solar is a leading solar EPC company in India, offering turnkey solar solutions from planning and design to installation and commissioning.";
+        $title = "Solar EPC Company in India | Turnkey Solutions | Contendre Solar";
+        $description = "Contendre Solar delivers end-to-end EPC design, procurement, installation, testing, and O&M for residential, commercial, industrial, and utility-scale projects";
 
         $faq = Faq::where('faq_url', 'epc')->first();
 
         return view('front.epc', compact('title', 'description', 'faq'));
 
     }
-
-    public function solarDeveloper()
+    public function whitelabel()
     {
+        $title = "Solar EPC Company in India | Turnkey Solutions | Contendre Solar";
+        $description = "Contendre Solar delivers end-to-end EPC design, procurement, installation, testing, and O&M for residential, commercial, industrial, and utility-scale projects";
 
-        $title = "Solar Panel Manufacturers for Developers | Contendre Solar";
+        $faq = Faq::where('faq_url', 'white-labeling-oem-solar-manufacturing')->first();
 
-        $description = "Contendre Solar partners with commercial, industrial, ground mount, and utility-scale solar developers across India with high-yield bankable modules.";
-
-        $faq = Faq::where('faq_url', 'solar-developer')->first();
-
-        return view('front.solar-developer', compact('title', 'description', 'faq'));
+        return view('front.white-labeling-oem-solar-manufacturing', compact('title', 'description', 'faq'));
 
     }
 
-
-    public function commercialIndustrialSolutions()
+    public function solarDeveloper()
     {
+        $title = "Solar Panel Supplier for Developers | Contendre Solar";
+        $description = "Contendre Solar supplies BIS, IEC, and ALMM-certified bankable modules for commercial, industrial, ground-mount, and utility-scale solar developers across India";
+        $faq = Faq::where('faq_url', 'solar-developer')->first();
+        $products = ProductCategory::wherenull('deleted_at')->get();
+        
+        return view('front.solar-developer', compact('title', 'description', 'faq', 'products'));
 
-        $title = "Commercial & Industrial Solar Solutions | Contendre Solar";
-
-        $description = "Boost business efficiency with commercial and industrial solar solutions from Contendre Solar. Reduce energy costs with reliable solar power.";
-
+    }
+    
+     public function commercialIndustrialSolutions()
+    {
+        $title = "Commercial & Industrial Solar Panels India | Contendre Solar";
+        $description = "Cut electricity costs up to 70% with Contendre Solar's Commercial & Industrial rooftop systems - custom-designed for factories, warehouses, and offices";
         $faq = Faq::where('faq_url', 'commercial-industrial-solutions')->first();
-
         return view('front.commercial-industrial-solution', compact('title', 'description', 'faq'));
-
     }
 
     public function allyLocater()

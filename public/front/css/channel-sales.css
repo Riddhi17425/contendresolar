@@ -639,9 +639,9 @@
 }
 
 .epc_sector_card .epc_sector_img {
-    height: 240px;
-    width: 100%;
-    object-fit: cover;
+    /* height: 240px; */
+    /* width: 100%; */
+    /* object-fit: cover; */
     transition: transform 0.4s ease;
 }
 
@@ -744,7 +744,7 @@
 }
 
 .cs_banner_title {
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 700;
     color: #FFFFFF;
     line-height: 52px;
@@ -1114,8 +1114,8 @@
 .track_timeline_main_line {
     position: absolute;
     top: 50%;
-    left: 8%;
-    right: 8%;
+    left: 10%;
+    right: 10%;
     height: 1.5px;
     background: #C4C4C4;
     z-index: 1;

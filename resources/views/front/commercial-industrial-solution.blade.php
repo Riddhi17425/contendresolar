@@ -80,7 +80,7 @@
                 <div class="col-lg-6 order-2 order-lg-1">
                     <h2 class="cs_h2 animation-top">Solar Solution for Commercial & Industrial Uses</h2>
                     <p class="cs_body_18 mb-3">
-                        Contendre Solar is a trusted provider of <b>Commercial & Industrial Solar</b> solutions in Maharashtra and across India. As a leading Commercial Solar Panel Supplier in India, we offer end-to-end services, from consultation and system design to installation and post-project maintenance, ensuring a smooth and hassle-free transition to solar energy for businesses.
+                        Contendre Solar is a trusted provider of <b>Commercial & Industrial Solar</b> solutions in Maharashtra and across India. As a <b>leading Commercial Solar Panel Supplier in India,</b> we offer end-to-end services, from consultation and system design to installation and post-project maintenance, ensuring a smooth and hassle-free transition to solar energy for businesses.
                     </p>
                     <p class="cs_body_18 mb-3">
                         Our <b>Commercial & Industrial Solar</b> System solutions are designed to meet diverse energy requirements, catering to everything from small commercial establishments to large manufacturing facilities. With every project, we focus on quality, reliability, and optimal performance, helping businesses improve long-term energy efficiency.
@@ -319,7 +319,7 @@
             <div class="sectors_slider pb-4">
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/Manufacturing-Industrial.webp') }}" alt="Manufacturing & Industrial" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Manufacturing-Industrial-Sector.webp') }}" alt="Manufacturing & Industrial" class="epc_sector_img img-fluid">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">01 / Sector</p>
                             <h3 class="epc_sector_name">Manufacturing & Industrial Sector</h3>
@@ -328,7 +328,7 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/Commercial-Buildings.webp') }}" alt="Commercial Buildings" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Commercial-Buildings-Offices.webp') }}" alt="Commercial Buildings" class="epc_sector_img img-fluid">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">02 / Sector</p>
                             <h3 class="epc_sector_name">Commercial Buildings & Offices</h3>
@@ -337,7 +337,7 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/Corporate-Offices.webp') }}" alt="Corporate Offices" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Warehouses-Logistics-comm.webp') }}" alt="Corporate Offices" class="epc_sector_img img-fluid">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">03 / Sector</p>
                             <h3 class="epc_sector_name">Warehouses & Logistics</h3>
@@ -346,7 +346,7 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/Warehouses-Logistics.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Hotels-Hospitality.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img img-fluid">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">04 / Sector</p>
                             <h3 class="epc_sector_name">Hotels & Hospitality</h3>
@@ -355,7 +355,7 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/Educational-Institutions.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Retail-Shopping-Facilities.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img img-fluid">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">05 / Sector</p>
                             <h3 class="epc_sector_name">Retail & Shopping Facilities</h3>
@@ -364,7 +364,7 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/Healthcare-Facilities.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Educational-Institutions-comm.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img img-fluid">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">06 / Sector</p>
                             <h3 class="epc_sector_name">Educational Institutions</h3>
@@ -373,7 +373,7 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/Retail-Hospitality.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Healthcare-Facilities-comm.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img img-fluid">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">07 / Sector</p>
                             <h3 class="epc_sector_name">Healthcare Facilities</h3>
@@ -382,7 +382,7 @@
                 </div>
                 <div class="px-2">
                     <div class="epc_sector_card">
-                        <img src="{{ asset('public/front/images/channel_sales/Residential-Communities.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img">
+                        <img src="{{ asset('public/front/images/channel_sales/Infrastructure-Large-Facilities.webp') }}" alt="Institutional & Infrastructure Solar" class="epc_sector_img img-fluid">
                         <div class="epc_sector_body">
                             <p class="epc_sector_tag">08 / Sector</p>
                             <h3 class="epc_sector_name">Infrastructure & Large Facilities</h3>
@@ -1089,11 +1089,6 @@ function showEpcStep(stepNum) {
     });
 }
 </script>
-
-    <script>
-
-        @include('layouts.partnerform')
-@include('layouts.frontfooter')
 
 <script>
 (function() {
