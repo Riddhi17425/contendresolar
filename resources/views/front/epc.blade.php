@@ -20,9 +20,9 @@
                     </p>
                     
                     <div class="mt-4">
-                        <a class="cs_hero_btn animation-bottom" data-bs-toggle="modal" data-bs-target="#applymodal">
-                            Request an EPC Quote <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
-                        </a>
+                        <a href="{{ url('/contact-us') }}#contactFormSection" class="cs_hero_btn animation-bottom">
+    Request an EPC Quote <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+</a>
                     </div>
                 </div>
             </div>
@@ -343,9 +343,9 @@
                     <p class="cs_body_18 my-4">
                         We begin with your energy requirements, project objectives, site conditions, and expectations. This helps us understand the project's priorities before moving into technical planning. We align the initial approach with your operational and energy goals.
                     </p>
-                    <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
-                        Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
-                    </a>
+                    <a href="{{ url('/contact-us') }}#contactFormSection" class="coman_btn cs_btn_orange">
+    Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+</a>
                 </div>
                 <!-- Step 2 Pane -->
                 <div class="cs_step_content_pane" id="epcStep2">
@@ -356,9 +356,9 @@
                     <p class="cs_body_18 my-4">
                         Our team evaluates the site, available area, structural considerations, energy consumption, and project feasibility. This assessment helps identify opportunities, limitations, and key project requirements. The findings form the basis for a practical solar solution.
                     </p>
-                    <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
-                        Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
-                    </a>
+                    <a href="{{ url('/contact-us') }}#contactFormSection" class="coman_btn cs_btn_orange">
+    Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+</a>
                 </div>
                 <!-- Step 3 Pane -->
                 <div class="cs_step_content_pane" id="epcStep3">
@@ -369,9 +369,9 @@
                     <p class="cs_body_18 my-4">
                         We develop the technical design and system architecture around the project's specific requirements. System capacity, equipment selection, electrical configuration, and site conditions are considered during design. The objective is to create a solution designed for reliable project performance.
                     </p>
-                    <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
-                        Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
-                    </a>
+                    <a href="{{ url('/contact-us') }}#contactFormSection" class="coman_btn cs_btn_orange">
+    Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+</a>
                 </div>
                 <!-- Step 4 Pane -->
                 <div class="cs_step_content_pane" id="epcStep4">
@@ -382,9 +382,9 @@
                     <p class="cs_body_18 my-4">
                         Required modules, inverters, structures, electrical equipment, and other system components are sourced and coordinated for execution. Procurement is aligned with the approved design and project requirements. This helps maintain consistency between selected technology and on-site execution.
                     </p>
-                    <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
-                        Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
-                    </a>
+                    <a href="{{ url('/contact-us') }}#contactFormSection" class="coman_btn cs_btn_orange">
+    Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+</a>
                 </div>
                 <!-- Step 5 Pane -->
                 <div class="cs_step_content_pane" id="epcStep5">
@@ -395,9 +395,9 @@
                     <p class="cs_body_18 my-4">
                         Installation, electrical works, integration, safety checks, and site execution are managed through a coordinated project approach. Our team works according to the project's technical and safety requirements. The focus remains on quality execution with minimal disruption to operations.
                     </p>
-                    <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
-                        Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
-                    </a>
+                    <a href="{{ url('/contact-us') }}#contactFormSection" class="coman_btn cs_btn_orange">
+    Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+</a>
                 </div>
                 <!-- Step 6 Pane -->
                 <div class="cs_step_content_pane" id="epcStep6">
@@ -408,9 +408,9 @@
                     <p class="cs_body_18 my-4">
                         The completed system is tested, verified, and commissioned for operation. Key system components and electrical connections are checked before the system goes live. This ensures the completed installation is ready for reliable operation.
                     </p>
-                    <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
-                        Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
-                    </a>
+                    <a href="{{ url('/contact-us') }}#contactFormSection" class="coman_btn cs_btn_orange">
+    Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+</a>
                 </div>
                 <!-- Step 7 Pane -->
                 <div class="cs_step_content_pane" id="epcStep7">
@@ -421,9 +421,9 @@
                     <p class="cs_body_18 my-4">
                         Post-commissioning O&M and technical support help keep the system performing over its operating life. Routine monitoring and maintenance help identify potential issues and maintain system performance. Our support continues beyond installation to help protect your solar investment.
                     </p>
-                    <a class="coman_btn cs_btn_orange" data-bs-toggle="modal" data-bs-target="#applymodal">
-                        Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
-                    </a>
+                    <a href="{{ url('/contact-us') }}#contactFormSection" class="coman_btn cs_btn_orange">
+    Enquire Now <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+</a>
                 </div>
             </div>
         </div>
@@ -701,9 +701,9 @@
                         From commercial rooftops to industrial sites, our portfolio of projects is evidence of how we do solar EPC; it shows our site knowledge, our ability to engineer the correct solution, our discipline in execution, and the ongoing support of performance after completion.
                     </p>
                     <div class="mt-4">
-                        <a class="coman_btn animation-bottom" data-bs-toggle="modal" data-bs-target="#applymodal">
-                            View Our Projects <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
-                        </a>
+                        <a href="{{ url('/clientele') }}" class="coman_btn animation-bottom">
+    View Our Projects <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+</a>
                     </div>
                 </div>
             </div>
