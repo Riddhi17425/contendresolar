@@ -177,7 +177,9 @@
 .cs_hero_section.dev_page_bg {
     background: url('../images/epc/Commercial-hero-section.webp') center top / cover no-repeat !important;
 }
-
+.cs_hero_section.white_label_page_bg{
+    background: url('../images/epc/White-Label-hero.webp') center top / cover no-repeat !important;
+}
 .cs_hero_subtitle {
     font-family: var(--font-heading);
     font-size: 24px;
