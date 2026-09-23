@@ -1054,8 +1054,8 @@ class DashboardController extends Controller
     }
     public function whitelabel()
     {
-        $title = "Solar EPC Company in India | Turnkey Solutions | Contendre Solar";
-        $description = "Contendre Solar delivers end-to-end EPC design, procurement, installation, testing, and O&M for residential, commercial, industrial, and utility-scale projects";
+        $title = "White Label Solar Panels & OEM Solar Module Manufacturing";
+        $description = "Contendre Solar is a solar module OEM manufacturer in India offering custom specifications, private labelling, project support & commercial supply solutions.";
 
         $faq = Faq::where('faq_url', 'white-labeling-oem-solar-manufacturing')->first();
 
