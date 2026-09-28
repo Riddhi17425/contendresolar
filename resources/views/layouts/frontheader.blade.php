@@ -22,8 +22,8 @@
     <!-- Favicon (ICO format, best for all browsers) -->
     <!--<link rel="icon" href="https://contendresolar.com/public/front/images/favicon-icon.png" type="image/png">-->
     
-    <link rel="icon" href="https://contendresolar.com/public/front/images/favicon-icon.ico" sizes="any">
- 
+    <!-- <link rel="icon" href="https://contendresolar.com/public/front/images/favicon-icon.ico" sizes="any"> -->
+    <link rel="icon" href="/favicon-icon.ico" sizes="any">
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
