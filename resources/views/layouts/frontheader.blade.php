@@ -29,7 +29,7 @@
     <meta property="og:site_name" content="Contendresolar">
     <meta property="og:title" content="{!! $title ?? $metatitle ?? 'Solar Panel Manufacturer in India | Contendre Solar' !!}" />
     <meta property="og:description" content="{{ strip_tags($description ?? $metadescription ?? 'Contendre Solar is a leading solar panel manufacturer in India, offering high-efficiency solar solutions for residential, commercial, and industrial needs.') }}" />
-    <meta property="og:image" content="{{$og_image ?? asset('public/front/images/why_solar.png')}}">
+    <meta property="og:image" content="{{$og_image ?? asset('public/front/images/channel_sales/Large-Scale-Utility-Scale-Solar.webp')}}">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
     
@@ -37,7 +37,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{!! $title ?? $metatitle ?? 'Solar Panel Manufacturer in India | Contendre Solar' !!}">
     <meta name="twitter:description" content="{{ strip_tags($description ?? $metadescription ?? 'Contendre Solar is a leading solar panel manufacturer in India, offering high-efficiency solar solutions for residential, commercial, and industrial needs.') }}">
-    <meta name="twitter:image" content="{{$og_image ?? asset('public/front/images/why_solar.png')}}">
+    <meta name="twitter:image" content="{{$og_image ?? asset('public/front/images/channel_sales/Large-Scale-Utility-Scale-Solar.webp')}}">
     
     
     <!-- Favicon (ICO format, best for all browsers) -->
