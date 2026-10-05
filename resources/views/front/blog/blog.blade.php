@@ -5,22 +5,26 @@
     <div class="container">
         <div class="row" id="blogContainer">
             @foreach($blogs as $key => $item)
-                <div class="col-lg-4 mb-4 blog-item" 
+                @php $blogLink = $item->url ? route('front.blog.details', ['url' => $item->url]) : '#'; @endphp
+                <div class="col-lg-4 mb-4 blog-item"
                      style="{{ $key >= 6 ? 'display:none;' : '' }}">
                     <div class="blog-box">
-                        <img src="{{ asset('public/blogs/blog_front_image/' .$item->front_image) }}" 
-                             alt="{{  str_replace(['-', '_'],' ', pathinfo($item->front_image, PATHINFO_FILENAME)) }}" 
+                        <img src="{{ asset('public/blogs/blog_front_image/' . $item->front_image) }}"
+                             alt="{{ str_replace(['-', '_'], ' ', pathinfo($item->front_image, PATHINFO_FILENAME)) }}"
                              class="img-fluid w-100">
-                        <p class="blog-date">
-                            <em>{{ \Carbon\Carbon::parse($item->date)->format('F jS, Y') }}</em>
-                        </p>
-                        <div class="blog-link">
-                            <a href="{{ $item->url ? route('front.blog.details', ['url' => $item->url]) : '#' }}">
-                                <h3 class="blog-list-title">{{ $item->title }}</h3>
+
+                        {{-- Upar: author + date (left), arrow (right) --}}
+                        <div class="blog-card-top">
+                            @include('layouts.blog_author_meta', ['blog' => $item, 'variant' => 'list'])
+                            <a class="coman_btn blog-card-arrow" href="{{ $blogLink }}" aria-label="Read {{ $item->title }}">
+                                <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
                             </a>
-                            <a class="coman_btn" 
-                               href="{{ $item->url ? route('front.blog.details', ['url' => $item->url]) : '#' }}">
-                               <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow">
+                        </div>
+
+                        {{-- Neeche: title (max 2 line) --}}
+                        <div class="blog-link">
+                            <a href="{{ $blogLink }}">
+                                <h3 class="blog-list-title" title="{{ $item->title }}">{{ $item->title }}</h3>
                             </a>
                         </div>
                     </div>

@@ -36,30 +36,11 @@
         @endif
 
         @if (!empty($blogs->conclusion))
-            <!--<h4 class="mt-4 text-start">Conclusion</h4>-->
             {!! $blogs->conclusion !!}
         @endif
 
-        <div class="container">
-            <div class="author-box" id="author-profile">
-                <div class="author-avatar position-relative flex-shrink-0">
-                    <img class="author-avatar-img" src="{{ asset('public/blogs/author_image/author.jpg') }}"
-                        onerror="this.src='https://ui-avatars.com/api/?name=Yash+Sheth&size=100&background=fdece0&color=F16F24'"
-                        alt="Yash Sheth">
-                </div>
-                <div class="author-info">
-                    <h4 class="author-name">Yash Sheth</h4>
-                    <p class="author-role">Founder, Director – Strategy &amp; Operations</p>
-                    <p class="author-bio">
-                        A University of Florida engineering graduate with a minor in renewable energy, Yash Sheth leads
-                        Contendre Solar's operations, sales, and business strategy. With a strong focus on quality,
-                        customer service, and efficient processes, he works closely across teams to drive growth,
-                        strengthen manufacturing capabilities, and build Contendre into a leading solar manufacturer
-                        focused on quality and sustainability.
-                    </p>
-                </div>
-            </div>
-        </div>
+        {{-- Author box (data layouts/blog_author_meta.blade.php se aata hai) --}}
+        @include('layouts.blog_author_meta', ['variant' => 'box'])
     </div>
 
 </section>
@@ -95,50 +76,4 @@
     </section>
 @endif
 
-
-<!--<section class="faq mt-100">-->
-<!--        <div class="container">-->
-<!--            <h3 class="style_head animation-top text-center">Frequently Asked Questions</h3>-->
-<!--            <h2 class="head2 animation-top text-center">FAQs</h2>-->
-<!--            <div class="accordion" id="accordionExample">-->
-<!--                <div class="row">-->
-<!--                        <div class="col-lg-6">-->
-<!--                            <div class="according_main">-->
-<!--                                <h2 class="sub_head"-->
-<!--                                    data-bs-toggle="collapse"-->
-<!--                                    data-bs-target="#collapse0"-->
-<!--                                    aria-expanded="true"-->
-<!--                                    aria-controls="collapse0">-->
-<!--                                     What is your return policy?-->
-<!--                                </h2>-->
-<!--                                <div id="collapse0"-->
-<!--                                    class="accordion-collapse collapse show"-->
-<!--                                    data-bs-parent="#accordionExample">-->
-<!--                                    <div>-->
-<!--                                                            We accept returns within 30 days of purchase with the original receipt.-->
-
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    <div class="col-lg-6">-->
-<!--        <div class="according_main">-->
-<!--            <h2 class="sub_head"-->
-<!--                data-bs-toggle="collapse"-->
-<!--                data-bs-target="#collapse1"-->
-<!--                aria-expanded="false"-->
-<!--                aria-controls="collapse1">-->
-<!--                How long does shipping take?-->
-<!--            </h2>-->
-<!--            <div id="collapse1" class="accordion-collapse collapse">-->
-<!--                <div>-->
-<!--                    Standard shipping usually takes 5–7 business days.-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
 @include('layouts.frontfooter')
