@@ -65,10 +65,10 @@ Route::get('/utility-scale', [DashboardController::class, 'utilityScale'])->name
 Route::get('/product-ally', [DashboardController::class, 'productAlly'])->name('product.ally');
 Route::get('/project-ally', [DashboardController::class, 'projectAlly'])->name('project.ally');
 Route::get('/channel-sales', [DashboardController::class, 'channelSales'])->name('channel.sales');
-Route::get('/epc', [DashboardController::class, 'epc'])->name('epc');
+Route::get('/solar-epc-company', [DashboardController::class, 'epc'])->name('solar.epc.company');
 Route::get('/white-labeling-oem-solar-manufacturing', [DashboardController::class, 'whitelabel'])->name('white.labeling.oem.solar.manufacturing');
 Route::get('/solar-developer', [DashboardController::class, 'solarDeveloper'])->name('solar.developer');
-Route::get('/commercial-industrial-solutions', [DashboardController::class, 'commercialIndustrialSolutions'])->name('commercial.industrial.solutions');
+Route::get('/commercial-and-industrial-solar-solutions', [DashboardController::class, 'commercialIndustrialSolutions'])->name('commercial.industrial.solutions');
 Route::get('/commercial-industrial-solution', [DashboardController::class, 'commercialIndustrialSolutions'])->name('commercial.industrial.solution');
 Route::get('/locater-ally', [DashboardController::class, 'allyLocater'])->name('locater.ally');
 Route::get('/news-list', [DashboardController::class, 'news'])->name('news');

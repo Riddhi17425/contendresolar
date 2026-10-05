@@ -18,11 +18,33 @@
     <meta name="base-url" content="{{ url('/') }}">
 
     <link rel="canonical" href="{{ url()->current() }}" />
-
+    
+    @if (request()->routeIs('captcha.image'))
+    <meta name="robots" content="nofollow, noindex"/>
+    @else
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    @endif
+    
+      <!--OG Tags-->
+    <meta property="og:site_name" content="Contendresolar">
+    <meta property="og:title" content="{!! $title ?? $metatitle ?? 'Solar Panel Manufacturer in India | Contendre Solar' !!}" />
+    <meta property="og:description" content="{{ strip_tags($description ?? $metadescription ?? 'Contendre Solar is a leading solar panel manufacturer in India, offering high-efficiency solar solutions for residential, commercial, and industrial needs.') }}" />
+    <meta property="og:image" content="{{$og_image ?? asset('public/front/images/channel_sales/Large-Scale-Utility-Scale-Solar.webp')}}">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+    
+    <!--Twitter X Card Tags-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{!! $title ?? $metatitle ?? 'Solar Panel Manufacturer in India | Contendre Solar' !!}">
+    <meta name="twitter:description" content="{{ strip_tags($description ?? $metadescription ?? 'Contendre Solar is a leading solar panel manufacturer in India, offering high-efficiency solar solutions for residential, commercial, and industrial needs.') }}">
+    <meta name="twitter:image" content="{{$og_image ?? asset('public/front/images/channel_sales/Large-Scale-Utility-Scale-Solar.webp')}}">
+    
+    
     <!-- Favicon (ICO format, best for all browsers) -->
     <!--<link rel="icon" href="https://contendresolar.com/public/front/images/favicon-icon.png" type="image/png">-->
     
-    <link rel="icon" href="https://contendresolar.com/public/front/images/favicon-icon.ico" sizes="any">
+    <!--<link rel="icon" href="https://contendresolar.com/public/front/images/favicon-icon.ico" sizes="any">-->
+    <link rel="icon" href="/favicon-icon.ico" sizes="any">
  
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,12 +56,14 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Google Fonts --> 
-  
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">-->
 
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Slick Carousel CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -150,7 +174,9 @@
     <div class="container">
         <div class="header">
             <div>
-                <a href="{{ url('/') }}"><img class="img-fluid header-logo" src="{{ asset($isWhiteHeader ? 'public/front/images/logo-header-dark.svg' : 'public/front/images/logo-header.svg') }}" alt="logo"></a>
+                <!--<a href="{{ url('/') }}"><img class="img-fluid header-logo" src="{{ asset('public/front/images/logo-header.svg') }}" alt="logo"></a>-->
+                                <a href="{{ url('/') }}"><img class="img-fluid header-logo" src="{{ asset($isWhiteHeader ? 'public/front/images/logo-header-dark.svg' : 'public/front/images/logo-header.svg') }}" alt="logo"></a>
+
             </div>
             <nav class="nav">
                 <div class="nav-itm">
@@ -188,14 +214,17 @@
                                                     <li><a href="{{ route('solar.panel.manufacturer') }}">Solar Panel Manufacturer</a></li>
                                                     <li><a href="{{ route('milestone') }}">Milestones</a></li>
                                                     <li><a href="{{ route('clientele') }}">Clientele</a></li>
+                                                    <li><a href="{{ route('solar.epc.company') }}">Solar EPC Company</a></li>
+                                                    <li><a href="{{ route('solar.developer') }}">Solar Developer</a></li>
                                                 </ul>
                                                 <hr>
                                                 <p class="sub_head">Solutions</p>
                                                 <ul class="ft_menu">
                                                     <li><a href="{{ route('solar.panel.for.home') }}">Solar Panel For Home</a></li>
-                                                    <li><a href="{{ route('commercial.and.industrial.solar') }}">Commercial & Industrial Solar Panels</a></li>
+                                                    <li><a href="{{ route('commercial.industrial.solutions') }}">Commercial & Industrial Solar Solusions</a></li>
                                                     <li><a href="{{ route('utility.scale') }}">Utility Scale</a></li>
                                                     <li><a href="{{ route('bipv.solution') }}">BIPV Solution</a></li>
+                                                    <li><a href="{{ route('white.labeling.oem.solar.manufacturing') }}">White Labeling OEM Solar Manufacturing</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -217,6 +246,7 @@
                                                     <li><a href="{{ route('product.ally') }}">Product Ally Program</a></li>
                                                     <li><a href="{{ route('project.ally') }}">Project Ally Program</a></li>
                                                     <li><a href="{{ route('locater.ally') }}">Ally Locator</a></li>
+                                                    <li><a href="{{ route('channel.sales') }}">Channel Sales</a></li>
                                                 </ul>
                                             </div>
                                         </div>

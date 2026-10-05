@@ -49,6 +49,7 @@
                             <li><a href="{{ route('sustainability') }}">About Solar</a></li>
 
                             <li><a href="{{ route('career') }}">Career</a></li>
+                            <li><a href="{{ route('contact.us') }}">Contact Us</a></li>
 
                         </ul>
 
@@ -93,6 +94,8 @@
                             <li><a href="{{ route('milestone') }}">Milestones</a></li>
 
                             <li><a href="{{ route('clientele') }}">Clientele</a></li>
+                            <li><a href="{{ route('solar.epc.company') }}">Solar EPC Company</a></li>
+                            <li><a href="{{ route('solar.developer') }}">Solar Developer</a></li>
 
                         </ul>
 
@@ -107,7 +110,7 @@
                             <li><a href="{{ route('project.ally') }}">Project Ally Program</a></li>
 
                             <li><a href="{{ route('locater.ally') }}">Ally Locator</a></li>
-
+                            <li><a href="{{ route('channel.sales') }}">Channel Sales</a></li>
                         </ul>
 
                     </div>
@@ -130,11 +133,12 @@
 
                             <li><a href="{{ route('solar.panel.for.home') }}">Solar Panel For Home</a></li>
 
-                            <li><a href="{{ route('commercial.and.industrial.solar') }}">Commercial & Industrial Solar Panels</a></li>
+                            <li><a href="{{ route('commercial.industrial.solutions') }}">Commercial & Industrial Solar Solusions</a></li>
 
                             <li><a href="{{ route('utility.scale') }}">Utility Scale</a></li>
 
                             <li><a href="{{ route('bipv.solution') }}">BIPV Solution</a></li>
+                            <li><a href="{{ route('white.labeling.oem.solar.manufacturing') }}">White Labeling OEM Solar Manufacturing</a></li>
 
                         </ul>
 
