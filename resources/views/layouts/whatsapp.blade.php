@@ -187,7 +187,7 @@
 
     </div>
 
-    <div class="wa-modal" id="hnoww-wa-modal">
+    <div class="wa-modal" id="wa-modal">
 
         <div class="wa-header">
 
@@ -324,7 +324,7 @@
 
     function toggleWAModal() {
 
-        const modal = document.getElementById("hnoww-wa-modal");
+        const modal = document.getElementById("wa-modal");
 
         modal.style.display =
 
