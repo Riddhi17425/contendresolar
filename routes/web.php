@@ -81,8 +81,9 @@ Route::get('/sustainability', [DashboardController::class, 'aboutSolar'])->name(
 Route::get('/distributor', [DashboardController::class, 'distributor'])->name('distributor');
 Route::post('/distributor-submit', [DashboardController::class, 'storeDistributor'])->name('distributor.submit');
 
-//darshan work
+
 Route::get('/blog', [FrontBlogController::class, 'index'])->name('front.blog');
+Route::get('/blog/author/{slug}', [FrontBlogController::class, 'authorDetail'])->name('front.author.details');
 Route::get('/blog/{url}', [FrontBlogController::class, 'BlogDetails'])->name('front.blog.details');
 
 Route::get('/thank-you', [DashboardController::class, 'thankyou'])->name('thank.you');

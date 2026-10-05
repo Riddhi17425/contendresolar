@@ -854,7 +854,7 @@ class DashboardController extends Controller
 
             Mail::to($validated['email'])->send(new SendCareerMailToUser($validated['name']));
 
-            Mail::to(['hr@contendresolar.com'])->send(new SendCareerMailToAdmin($careerData));
+            Mail::to(['careers@contendresolar.com'])->send(new SendCareerMailToAdmin($careerData));
 
             return redirect()->route('thank.you')->with('success', 'Your message has been sent successfully!');
 
