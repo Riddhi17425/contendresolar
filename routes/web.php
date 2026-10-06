@@ -81,7 +81,7 @@ Route::post('/distributor-submit', [DashboardController::class, 'storeDistributo
 
 
 Route::get('/blog', [FrontBlogController::class, 'index'])->name('front.blog');
-Route::get('/blog/author/{slug}', [FrontBlogController::class, 'authorDetail'])->name('front.author.details');
+Route::get('/author/{slug}', [FrontBlogController::class, 'authorDetail'])->name('front.author.details');
 Route::get('/blog/{url}', [FrontBlogController::class, 'BlogDetails'])->name('front.blog.details');
 
 Route::get('/thank-you', [DashboardController::class, 'thankyou'])->name('thank.you');

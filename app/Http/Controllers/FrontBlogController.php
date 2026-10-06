@@ -41,8 +41,8 @@ class FrontBlogController extends Controller
     {
         abort_if($slug !== 'yash-sheth', 404);
 
-        $title       = "Yash Sheth – Founder & Director at Contendre Solar | Solar Manufacturing Expert";
-        $description = "Yash Sheth is Founder & Director of Contendre Solar, leading operations, sales and strategy. Read his articles on solar panels, manufacturing and sustainability.";
+        $title       = "Founder & Director at Contendre Solar | Yash Sheth";
+        $description = "Meet Yash Sheth, Founder & Director at Contendre Solar, with expertise in solar manufacturing, renewable energy, and sustainable solar solutions.";
 
         $blogs = $this->activeBlogs()->latest()->get();
 
