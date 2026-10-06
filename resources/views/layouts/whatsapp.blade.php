@@ -160,9 +160,9 @@
 </style>
 
 <div class="wa-container">
-
+   
     <div class="wa-button" onclick="toggleWAModal()">
-
+        
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 
             <g clip-path="url(#clip0_1317_780)">
@@ -187,47 +187,46 @@
 
     </div>
 
-    <div class="wa-modal" id="wa-modal">
+    <!--<div class="wa-modal" id="wa-modal">-->
 
-        <div class="wa-header">
+    <!--    <div class="wa-header">-->
 
-            <span class="wa-close" onclick="toggleWAModal()">&times;</span>
+    <!--        <span class="wa-close" onclick="toggleWAModal()">&times;</span>-->
 
-            <h4>Contendre Solar</h4>
+    <!--        <h4>Contendre Solar</h4>-->
 
-            <p>Chat with our solar experts.</p>
+    <!--        <p>Chat with our solar experts.</p>-->
 
-        </div>
+    <!--    </div>-->
 
-        <form id="whatsapForm" method="POST" action="{{ route('whatsaapinquiry') }}" target="_blank">
-         @csrf
+    <!--    <form id="whatsapForm" method="POST" action="{{ route('whatsaapinquiry') }}" target="_blank">-->
+    <!--     @csrf-->
 
-         
-            <div class="wa-body whatsappform">
+    <!--        <div class="wa-body whatsappform">-->
 
-                <input type="tel" id="wa-phone" name="phone" required autocomplete="off">
+    <!--            <input type="tel" id="wa-phone" name="phone" required autocomplete="off">-->
 
-                 <small id="wa-phone-error" style="color:#d9534f; font-size:12px; display:none;">
-                    Please enter a valid phone number.
-                </small>
+    <!--             <small id="wa-phone-error" style="color:#d9534f; font-size:12px; display:none;">-->
+    <!--                Please enter a valid phone number.-->
+    <!--            </small>-->
 
-               <textarea id="wa-textarea" name="message_display" placeholder="Type your message"></textarea>
+    <!--           <textarea id="wa-textarea" name="message_display" placeholder="Type your message"></textarea>-->
 
-                <input type="hidden" id="wa_full_phone" name="number">
-                <input type="hidden" id="wa_message_hidden" name="message">
+    <!--            <input type="hidden" id="wa_full_phone" name="number">-->
+    <!--            <input type="hidden" id="wa_message_hidden" name="message">-->
 
-               <button class="wa-send" type="submit" id="waSendBtn">
-                    <span class="btn-text">Start Chat</span>
-                    <span class="btn-loader" style="display:none;">
-                        <span class="spinner-border spinner-border-sm" style="width:16px;height:16px;border-width:2px;"></span>
-                        Sending...
-                    </span>
-                </button>
-            </div>
+    <!--           <button class="wa-send" type="submit" id="waSendBtn">-->
+    <!--                <span class="btn-text">Start Chat</span>-->
+    <!--                <span class="btn-loader" style="display:none;">-->
+    <!--                    <span class="spinner-border spinner-border-sm" style="width:16px;height:16px;border-width:2px;"></span>-->
+    <!--                    Sending...-->
+    <!--                </span>-->
+    <!--            </button>-->
+    <!--        </div>-->
 
-        </form>
+    <!--    </form>-->
 
-    </div>
+    <!--</div>-->
 
 </div>
 
@@ -236,116 +235,123 @@
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.12.4/build/js/intlTelInput.min.js"></script>
 
 <script>
-    let iti;
+    // let iti;
+    // document.addEventListener("DOMContentLoaded", async function() {
 
 
 
-    document.addEventListener("DOMContentLoaded", async function() {
+    //     const phoneInput = document.querySelector("#wa-phone");
 
 
 
-        const phoneInput = document.querySelector("#wa-phone");
+    //     iti = window.intlTelInput(phoneInput, {
+
+    //         initialCountry: "auto",
 
 
 
-        iti = window.intlTelInput(phoneInput, {
-
-            initialCountry: "auto",
+    //         geoIpLookup: function(callback) {
 
 
 
-            geoIpLookup: function(callback) {
+    //             fetch("https://ipwho.is/")
+
+    //                 .then(res => res.json())
+
+    //                 .then(data => {
+
+    //                     callback(data.country_code.toLowerCase());
+
+    //                 })
+
+    //                 .catch(() => {
+
+    //                     callback("in");
+
+    //                 });
 
 
 
-                fetch("https://ipwho.is/")
-
-                    .then(res => res.json())
-
-                    .then(data => {
-
-                        callback(data.country_code.toLowerCase());
-
-                    })
-
-                    .catch(() => {
-
-                        callback("in");
-
-                    });
+    //         },
 
 
 
-            },
+    //         separateDialCode: true,
 
 
 
-            separateDialCode: true,
+    //         loadUtils: () => import(
+    //             "https://cdn.jsdelivr.net/npm/intl-tel-input@25.12.4/build/js/utils.js")
+
+    //     });
+
+
+    //         document
+    //             .getElementById("whatsapForm")
+    //             .addEventListener("submit", function (e) {
+
+    //                 // 1. Validate the phone number - block submit if invalid
+    //                 if (!iti.isValidNumber()) {
+    //                     e.preventDefault();
+    //                     document.getElementById("wa-phone-error").style.display = "block";
+    //                     return;
+    //                 }
+    //                 document.getElementById("wa-phone-error").style.display = "none";
+
+    //                 // 2. Fill the hidden fields Laravel will actually receive
+    //                 document.getElementById("wa_full_phone").value = iti.getNumber(); // e.g. +919136457555
+    //                 document.getElementById("wa_message_hidden").value =
+    //                     document.getElementById("wa-textarea").value;
+
+    //                 // 3. Show a loading state on the button
+    //                 const btn = document.getElementById("waSendBtn");
+    //                 btn.disabled = true;
+    //                 btn.querySelector(".btn-text").style.display = "none";
+    //                 btn.querySelector(".btn-loader").style.display = "inline-flex";
+
+    //                 // NOTE: no e.preventDefault() here — we WANT the form to submit normally
+    //             });
 
 
 
-            loadUtils: () => import(
-                "https://cdn.jsdelivr.net/npm/intl-tel-input@25.12.4/build/js/utils.js")
+    // });
+    // function toggleWAModal() {
 
-        });
+    //     const modal = document.getElementById("wa-modal");
 
+    //     modal.style.display =
 
-            document
-                .getElementById("whatsapForm")
-                .addEventListener("submit", function (e) {
+    //         modal.style.display === "block"
 
-                    // 1. Validate the phone number - block submit if invalid
-                    if (!iti.isValidNumber()) {
-                        e.preventDefault();
-                        document.getElementById("wa-phone-error").style.display = "block";
-                        return;
-                    }
-                    document.getElementById("wa-phone-error").style.display = "none";
+    //         ?
 
-                    // 2. Fill the hidden fields Laravel will actually receive
-                    document.getElementById("wa_full_phone").value = iti.getNumber(); // e.g. +916358820089
-                    document.getElementById("wa_message_hidden").value =
-                        document.getElementById("wa-textarea").value;
+    //         "none"
 
-                    // 3. Show a loading state on the button
-                    const btn = document.getElementById("waSendBtn");
-                    btn.disabled = true;
-                    btn.querySelector(".btn-text").style.display = "none";
-                    btn.querySelector(".btn-loader").style.display = "inline-flex";
+    //         :
 
-                    // NOTE: no e.preventDefault() here — we WANT the form to submit normally
-                });
+    //         "block";
 
-
-
-    });
-
-
-
+    // }
+    
     function toggleWAModal() {
-
-        const modal = document.getElementById("wa-modal");
-
-        modal.style.display =
-
-            modal.style.display === "block"
-
-            ?
-
-            "none"
-
-            :
-
-            "block";
-
+        const whatsappNumber = "919136457555";
+        const message = "Hello, I'm interested in Contendre Solar's products and solutions. Can you help me with a quote?";
+        const whatsappUrl =
+            "https://wa.me/" +
+            whatsappNumber +
+            "?text=" +
+            encodeURIComponent(message);
+    
+        window.open(whatsappUrl, "_blank");
     }
+
 </script>
 
-@if(session('whatsapp_url'))
-<script>
-    window.location.href = "{{ session('whatsapp_url') }}";
-</script>
-<noscript>
-    <a href="{{ session('whatsapp_url') }}">Click here if not redirected</a>
-</noscript>
-@endif
+<!--@if(session('whatsapp_url'))-->
+<!--<script>-->
+<!--    window.location.href = "{{ session('whatsapp_url') }}";-->
+<!--</script>-->
+<!--<noscript>-->
+<!--    <a href="{{ session('whatsapp_url') }}">Click here if not redirected</a>-->
+<!--</noscript>-->
+<!--@endif-->
