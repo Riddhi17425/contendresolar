@@ -24,6 +24,7 @@ use App\Http\Controllers\FrontBlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\superAdminController;
 use App\Http\Controllers\usersController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,6 +38,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])->name('sitemap');
 Route::get('/', [DashboardController::class, 'index'])->name('front.home');
 Route::get('/solar-panel-for-home', [DashboardController::class, 'solarpanel'])->name('solar.panel.for.home');
 Route::get('/contact-us', [DashboardController::class, 'contact'])->name('contact.us');

@@ -26,6 +26,7 @@ body {
     font-weight: 400;
     color: var(--wb-para);
     scroll-behavior: smooth;
+        overflow-x: hidden;
 }
 
 /* Width and height of scrollbar */
@@ -84,7 +85,6 @@ button
     color: var(--green);
     margin: 0 0 25px 0;
     font-family: 'IBM Plex Sans', sans-serif;
-
 }
 
 .head2 {
@@ -95,7 +95,6 @@ button
     margin: 0 0 25px 0;
     position: relative;
     font-family: 'IBM Plex Sans', sans-serif;
-
 }
 
 .style_head {
@@ -104,7 +103,6 @@ button
     font-weight: 400;
     color: var(--orange);
     font-family: 'IBM Plex Sans', sans-serif;
-
 }
 
 .sub_head_white {
@@ -112,7 +110,6 @@ button
     font-weight: 400;
     line-height: 30px;
     color: var(--white);
-
 }
 
 .sub_head {
@@ -121,7 +118,6 @@ button
     line-height: 30px;
     color: var(--wb-para);
     font-family: 'IBM Plex Sans', sans-serif;
-
 }
 
 a {
@@ -138,7 +134,6 @@ a {
     color: var(--white);
     font-size: 12px;
     font-family: 'IBM Plex Sans', sans-serif;
-
 }
 
 .coman_btn::before {
@@ -419,7 +414,6 @@ header {
 .hero_head {
     font-size: 72px;
     font-family: "IBM Plex Sans", sans-serif;
-
 }
 
 .hero_para {
@@ -457,14 +451,12 @@ header {
     font-weight: 600;
     margin-bottom: 16px;
     font-family: "IBM Plex Sans", sans-serif;
-
 }
 
 h1,h2,h3,h4,h5,h6
 {
     font-family: "IBM Plex Sans", sans-serif !important;
 }
-
 
 .hero_rt_tp span {
     transform: translateX(90%);
@@ -498,7 +490,6 @@ h1,h2,h3,h4,h5,h6
     text-transform: capitalize;
     color: var(--black);
     font-family: "IBM Plex Sans", sans-serif;
-
 }
 
 .about_head span {
@@ -1907,7 +1898,7 @@ ul.two-column {
     color: #FFF;
 text-align: center;
 font-size: 32px;
-font-weight: 500;
+font-weight: 600;
 line-height: normal;
 }
 .f-36{
@@ -2240,53 +2231,6 @@ letter-spacing: -0.36px;
 .whasapp-quotes{
     font-size:35px;
 }
-
-/*  author-box CSS add*/
-.author-box {
-    gap: 24px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-    border: 1px solid var(--bor-grey);
-    border-radius: 10px;
-    padding: 30px;
-    margin-top: 40px;
-}
-
-.author-avatar-img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #ffffff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.author-name {
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--black);
-    margin-bottom: 4px;
-    font-family: "IBM Plex Sans", sans-serif;
-}
-
-.author-role {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--orange);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 10px;
-}
-
-.author-bio {
-    font-size: 15px;
-    color: var(--wb-black);
-    line-height: 1.7;
-    margin-bottom: 0;
-}
-/*  author-box CSS */
-
 
 
 

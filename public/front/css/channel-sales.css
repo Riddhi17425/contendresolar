@@ -15,11 +15,19 @@
    ========================================================================== */
 .channel_sales_wrapper {
     width: 100%;
+    max-width: 100%;
+    position: relative;
     overflow-x: hidden;
-    font-family: var(--font-body);
-    color: var(--wb-para);
+    box-sizing: border-box;
 }
 
+@media (max-width: 767px) {
+    .channel_sales_wrapper {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: clip;
+    }
+}
 .channel_sales_wrapper h1,
 .channel_sales_wrapper h2,
 .channel_sales_wrapper h3,
@@ -177,9 +185,7 @@
 .cs_hero_section.dev_page_bg {
     background: url('../images/epc/Commercial-hero-section.webp') center top / cover no-repeat !important;
 }
-.cs_hero_section.white_label_page_bg{
-    background: url('../images/epc/White-Label-hero.webp') center top / cover no-repeat !important;
-}
+
 .cs_hero_subtitle {
     font-family: var(--font-heading);
     font-size: 24px;
@@ -641,9 +647,9 @@
 }
 
 .epc_sector_card .epc_sector_img {
-    /* height: 240px; */
-    /* width: 100%; */
-    /* object-fit: cover; */
+    /*height: 240px;*/
+    /*width: 100%;*/
+    /*object-fit: cover;*/
     transition: transform 0.4s ease;
 }
 
