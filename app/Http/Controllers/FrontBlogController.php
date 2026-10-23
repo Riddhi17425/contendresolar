@@ -5,11 +5,7 @@ use App\Models\Blog;
 
 class FrontBlogController extends Controller
 {
-    /**
-     * Sirf wahi blogs jo delete nahi hue.
-     * Agar blogs table me status column hai to neeche wali line uncomment karo
-     * (column ka naam aur value apne table ke hisaab se badlo).
-     */
+    
     private function activeBlogs()
     {
         return Blog::whereNull('deleted_at');

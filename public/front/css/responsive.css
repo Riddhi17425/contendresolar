@@ -147,6 +147,11 @@
             height:480px;
         }
 
+        .services_hero_img_new
+        {
+            height: auto;
+        }
+
 
 }
 
@@ -881,6 +886,11 @@ header {
                 height:420px;
             }
 
+            .services_hero_img_new
+            {
+                height: auto;
+            }
+
 }
 
 @media only screen and (max-width:1281px){
@@ -944,7 +954,13 @@ header {
     .solar-table {
         font-size: 15px;
     }
-    
+    /* auhtor bio add */
+     .author-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
     .envi_frien .envi_frien_content
     {
         width:100%;

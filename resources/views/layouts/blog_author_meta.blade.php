@@ -330,23 +330,7 @@
         </div>
     </div>
 @else
-    {{-- Poora author page --}}
-    <script type="application/ld+json">
-    {!! json_encode([
-        '@context' => 'https://schema.org',
-        '@type' => 'ProfilePage',
-        'mainEntity' => [
-            '@type' => 'Person',
-            'name' => $author['name'],
-            'jobTitle' => $author['role'],
-            'image' => $authorImg,
-            'url' => $authorUrl,
-            'sameAs' => array_values(array_filter([$author['linkedin'] ?? null])),
-            'knowsAbout' => $author['expertise'],
-            'worksFor' => ['@type' => 'Organization', 'name' => 'Contendre Solar'],
-        ],
-    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
-    </script>
+  
 
     <section class="author-page mt-100">
         <div class="container">
