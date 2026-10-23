@@ -211,25 +211,25 @@
             <div class="row">
                 <div class="col-lg-3 mb-4 mb-lg-0">
                     <div class="Sustainable_bot border-0">
-                        <p class="head2"><span data-target="1">0</span> GW+</p>
+                        <p class="head2"><span data-target="1">1</span> GW+</p>
                         <p>Manufacturing Capacity</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0">
                     <div class="Sustainable_bot">
-                        <p class="head2"><span data-target="20">0</span>+</p>
+                        <p class="head2"><span data-target="20">20</span>+</p>
                         <p>Countries Served</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0">
                     <div class="Sustainable_bot">
-                        <p class="head2"><span data-target="50">0</span>+ MW</p>
+                        <p class="head2"><span data-target="50">50</span>+ MW</p>
                         <p>Deployed Projects</p>
                     </div>
                 </div>
                 <div class="col-lg-3 mb-4 mb-lg-0">
                     <div class="Sustainable_bot">
-                        <p class="head2"><span data-target="1000">0</span>+</p>
+                        <p class="head2"><span data-target="1000">1000</span>+</p>
                         <p>Happy Clients</p>
                     </div>
                 </div>
@@ -376,7 +376,7 @@
                             and solar modules provide reliable, clean energy tailored for commercial buildings, factories, 
                             and offices, helping companies reduce expenses while supporting a greener future.</p>
                             <div class="mt-4">
-                                <a class="coman_btn" href="{{ url('/commercial-and-industrial-solar') }}">View More <img src="{{ asset('public/front/images/arrow.svg') }}" loading="lazy" alt="arrow"></a>
+                                <a class="coman_btn" href="{{ url('/commercial-and-industrial-solar-solutions') }}">View More <img src="{{ asset('public/front/images/arrow.svg') }}" loading="lazy" alt="arrow"></a>
                             </div>
                         </div>
 

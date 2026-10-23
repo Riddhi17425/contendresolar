@@ -303,11 +303,11 @@
                                                 <option value="en">EN</option>
                                                 <option value="en">EN</option>
                                             </select> -->
-                                            <div id="google_translate_element" class="custom-select">
+                                            <!-- <div id="google_translate_element" class="custom-select">
                                                 <span class="icon">
                                                     <img src="{{ asset('public/front/images/langu.svg') }}" alt="lan">
                                                 </span>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
 
@@ -332,19 +332,18 @@
         }, 'google_translate_element');
     }
 
-    function toggleGoogleTranslate() {
-        var translateElement = document.getElementById("google_translate_element");
-        if (translateElement.style.display === "none") {
-            translateElement.style.display = "block";
-        } else {
-            translateElement.style.display = "none";
+    window.addEventListener('pageshow', function (event) {
+        if (event.persisted) {
+            window.location.reload();
         }
-    }
+    });
 </script>
 
+<script
+    type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
 
-
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <style>
     .suggestions-box {
     border: 1px solid #ccc;
@@ -467,4 +466,3 @@
     align-items: normal;
 }
 </style>
-
