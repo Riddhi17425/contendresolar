@@ -994,9 +994,9 @@ class DashboardController extends Controller
     public function utilityScale()
     {
 
-        $title = "Utility Scale Solar Solutions for Large Projects | Contendre Solar";
+        $title = "Utility Scale Solar | Contendre Solar";
 
-        $description = "Build high-performance utility scale solar projects with Contendre Solar. We deliver end-to-end EPC, construction, commissioning, and O&M solutions across India";
+        $description = "Utility-scale solar projects convert sunlight into electricity for the grid, supplying clean energy to homes, offices, factories, and other facilities. ";
 
         return view('front.utility_scale', compact('title', 'description'));
 
@@ -1044,8 +1044,8 @@ class DashboardController extends Controller
 
     public function epc()
     {
-        $title = "Solar EPC Company in India | Turnkey Solutions | Contendre Solar";
-        $description = "Contendre Solar delivers end-to-end EPC design, procurement, installation, testing, and O&M for residential, commercial, industrial, and utility-scale projects";
+        $title = "Solar EPC Company in India | Turnkey Solutions";
+        $description = "Contendre Solar is a trusted solar EPC company in India offering end-to-end solutions from design and procurement to installation, testing & commissioning.";
 
         $faq = Faq::where('faq_url', 'epc')->first();
 

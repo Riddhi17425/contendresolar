@@ -1,3 +1,4 @@
+@include('layouts.connectwithus')
 <footer class="footer">
 
     <div class="container">

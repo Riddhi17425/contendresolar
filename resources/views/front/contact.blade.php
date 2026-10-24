@@ -4,13 +4,13 @@
 <div class="whatsapp-quotes-wrapper text-center">
      <div class="container">
          <p class="whasapp-quotes">Experience Stress-Free Instant Deliveries with Our Services.</p>
-         <a class="coman_btn" href="https://api.whatsapp.com/send?phone=919136457555&text=Hello%20,%20I%E2%80%99m%20interested%20in%20the%20services%20and%20products%20of%20Contendre%20Solar." target="_blank">WhatsApp Quote<img src="https://contendresolar.com//public/front/images/arrow.svg" alt="arrow"></a>
+         <!--<a class="coman_btn" href="https://api.whatsapp.com/send?phone=919136457555&text=Hello%20,%20I%E2%80%99m%20interested%20in%20the%20services%20and%20products%20of%20Contendre%20Solar." target="_blank">WhatsApp Quote<img src="https://contendresolar.com//public/front/images/arrow.svg" alt="arrow"></a>-->
          </div>
 </div>
 
-<section class="mt-100" id="contactFormSection">
+<section class="mt-80" id="contactFormSection">
     <div class="container" >
-         <div class="row justify-content-center text-center">
+         <div class="row     justify-content-center text-center">
              <div class="col-md-9 ">
                  <p>We appreciate your input and welcome any feedback, questions, suggestions, or inquiries you may have. Kindly fill out the brief form below, and one of our representatives will respond to you promptly. Thank you for reaching out to us!</p>
              </div>
@@ -168,7 +168,7 @@
     </div>
 </section>
 
-<div class="homeowners_ser_main mt-100">
+{{-- <div class="homeowners_ser_main mt-100">
     <div class="container">
         <div class="homeowners_ser contant_detail" id="inquiryform">
             <h2 class="about_head">CONNECT WITH US</h2>
@@ -183,7 +183,7 @@
                         <div class="contact-wrapper-detail">
                             <p class="contact-wrapper-title">Manufacturing Unit:</p>
                             <!--<a target="_blank" href="https://maps.app.goo.gl/rMd8SZghn4APhPW89">Unit 1/6, Rajlakshmi Hi-Tech Park, Sonale village, Bhiwandi, Maharashtra – 421302. India.</a>-->
-                            <a target="_blank" href="https://maps.app.goo.gl/PBX88NKgGGvb6FMt8">Survey No. 350, 351, Bhiwandi - Wada Rd, opp. Amantran Hotel, Musarne, Wada, Maharashtra 421312, India 
+                            <a target="_blank" href="https://maps.app.goo.gl/PBX88NKgGGvb6FMt8">Survey No. 350/351, Wada-Bhiwandi Road, Opp. Amantran Hotel, Musarne Village, Tal. Wada, Kudus, Palghar, Maharashtra, India 421312
 </a>
                         </div>
                     </div> 
@@ -192,7 +192,7 @@
                     <div class="contact-wrapper">
                         <div class="contact-wrapper-detail">
                             <p class="contact-wrapper-title">Headquarters:</p>
-                            <a target="_blank" href="https://maps.app.goo.gl/RKhnaGNLG6f6WBWKA">909, Filix Tower, Lal Bahadur Shastri Marg, Sonapur, Bhandup West, Mumbai, Maharashtra 400078</a>
+                            <a target="_blank" href="https://maps.app.goo.gl/RKhnaGNLG6f6WBWKA">909, Filix Tower, LBS Marg, Bhandup West, Mumbai, Maharashtra, India 400078</a>
                         </div>
                     </div>
                 </div>
@@ -225,7 +225,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 @include('layouts.consultancyform')
 
 

@@ -37,7 +37,7 @@
  
                     </div>
                      @else
-                     <a class="coman_btn" href="{{ url('/contact-us') }}#contactFormSection">Contact Us <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow"></a>
+                     {{-- <a class="coman_btn" href="{{ url('/contact-us') }}#contactFormSection">Contact Us <img src="{{ asset('public/front/images/arrow.svg') }}" alt="arrow"></a> --}}
                 @endif
             </div>
         </div> 

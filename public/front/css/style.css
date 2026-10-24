@@ -920,7 +920,7 @@ footer .sub_head {
     position: static;
 }
 
-.dropdown-menu.mega-menu {
+/* .dropdown-menu.mega-menu {
     width: 100%;
     left: 0;
     right: 0;
@@ -940,8 +940,46 @@ footer .sub_head {
     border-radius: 10px;
     padding: 60px;
     box-shadow: 0 0 10px #00000026;
+} */
+
+.dropdown-menu.mega-menu {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 100%;
+    border-radius: 0;
+    border: none;
+    transform: translate3d(0px, 85px, 0px) !important;
+    /* max-height, overflow-y, overflow-x hata diye (scrollbar nahi chahiye) */
 }
 
+/* scrollbar wale dono blocks (::-webkit-scrollbar) poore delete kar do */
+
+.mega_menu_child {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 30px 60px;      /* 40px se aur kam */
+    box-shadow: 0 0 10px #00000026;
+}
+
+/* links ke beech gap */
+.mega-menu .ft_menu li {
+    margin-bottom: 8px;      /* 10px se kam */
+}
+
+.mega-menu .ft_menu li a {
+    font-size: 15px;         /* optional: thoda chhota text */
+}
+
+.mega-menu .sub_head {
+    font-size: 20px;         /* 24px se kam */
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.mega-menu hr {
+    margin: 12px 0;
+}
 
 
 /* new page  */

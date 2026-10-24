@@ -212,13 +212,20 @@
                                                     <li><a href="{{ route('solar.developer') }}">Solar Developer</a></li>
                                                 </ul>
                                                 <hr>
-                                                <p class="sub_head">Solutions</p>
+                                                {{-- <p class="sub_head">Solutions</p>
                                                 <ul class="ft_menu">
                                                     <li><a href="{{ route('solar.panel.for.home') }}">Solar Panel For Home</a></li>
                                                     <li><a href="{{ route('commercial.industrial.solutions') }}">Commercial & Industrial Solar Solusions</a></li>
                                                     <li><a href="{{ route('utility.scale') }}">Utility Scale</a></li>
                                                     <li><a href="{{ route('bipv.solution') }}">BIPV Solution</a></li>
                                                     <li><a href="{{ route('white.labeling.oem.solar.manufacturing') }}">White Labeling OEM Solar Manufacturing</a></li>
+                                                </ul> --}}
+                                                <p class="sub_head">Contendre Ally Program</p>
+                                                <ul class="ft_menu">
+                                                    <li><a href="{{ route('product.ally') }}">Product Ally Program</a></li>
+                                                    <li><a href="{{ route('project.ally') }}">Project Ally Program</a></li>
+                                                    <li><a href="{{ route('locater.ally') }}">Ally Locator</a></li>
+                                                    <li><a href="{{ route('channel.sales') }}">Channel Sales</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -227,20 +234,37 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="ft_left">
                                                 <hr class=" d-lg-none">
-                                                <p class="sub_head">Resources</p>
-                                                <ul class="ft_menu">
+                                                {{-- <p class="sub_head">Resources</p>
+                                                <ul class="ft_menu"> --}}
                                                     {{-- <li><a href="javascript:void(0);">Case Studies & Installations</a></li> --}}
-                                                    <li><a href="{{ route('front.blog') }}">Blog</a></li>
+                                                    {{-- <li><a href="{{ route('front.blog') }}">Blog</a></li>
                                                     <li><a href="{{ route('news') }}">News</a></li>
                                                     <li><a href="{{ route('front.video') }}">Videos</a></li>
-                                                </ul> 
-                                                <hr>
-                                                <p class="sub_head">Contendre Ally Program</p>
+                                                </ul>  --}}
+                                                
+                                                {{-- <p class="sub_head">Contendre Ally Program</p>
                                                 <ul class="ft_menu">
                                                     <li><a href="{{ route('product.ally') }}">Product Ally Program</a></li>
                                                     <li><a href="{{ route('project.ally') }}">Project Ally Program</a></li>
                                                     <li><a href="{{ route('locater.ally') }}">Ally Locator</a></li>
                                                     <li><a href="{{ route('channel.sales') }}">Channel Sales</a></li>
+                                                </ul> --}}
+                                                <p class="sub_head">Solutions</p>
+                                                <ul class="ft_menu">
+                                                    <li><a href="{{ route('solar.panel.for.home') }}">Solar Panel For Home</a></li>
+                                                    <li><a href="{{ route('commercial.industrial.solutions') }}">Commercial & Industrial Solar Solusions</a></li>
+                                                    <li><a href="{{ route('utility.scale') }}">Utility Scale</a></li>
+                                                    <li><a href="{{ route('bipv.solution') }}">BIPV Solution</a></li>
+                                                    <li><a href="{{ route('white.labeling.oem.solar.manufacturing') }}">White Labeling OEM Solar Manufacturing</a></li>
+                                                </ul>
+                                                 <hr>
+                                                <p class="sub_head">Resources</p>
+                                                <ul class="ft_menu">
+                                                    {{-- <li><a href="javascript:void(0);">Case Studies & Installations</a></li> --}}
+                                                     <li><a href="{{ route('front.blog') }}">Blog</a></li>
+                                                    <li><a href="{{ route('news') }}">News</a></li>
+                                                    <li><a href="{{ route('front.video') }}">Videos</a></li>
+                                                    <li><a href="{{ route('contact.us') }}">Contact Us</a></li>
                                                 </ul>
                                             </div>
                                         </div>
