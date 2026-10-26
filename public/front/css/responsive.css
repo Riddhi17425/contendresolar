@@ -1193,8 +1193,8 @@ header {
     }
 
     .head_white {
-        font-size: 40px;
-        line-height: 46px;
+        font-size: 25px;
+        line-height: 35px;
     }
 
     .consultation_bt {
@@ -1250,7 +1250,7 @@ header {
     }
 
     .services_hero .hero_lt {
-        top: 50%;
+        top: 53%;
     transform: translate(-50%, -50%);
     }
 
